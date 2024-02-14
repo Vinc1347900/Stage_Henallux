@@ -1,6 +1,8 @@
 1. Compte sur le site dell : crée mais demande d'affiliation
 
 2. Documentation du matériel qui sera utiliser (kazako, spécification et managment tool) : 
+    2.1: besoins d'approfondire côté software de DELL vxRail HCI et manager
+    2.2: besoins de regarder plus attentivement les switch disponible (model: S5224F-ON | S3124P)
 
 3. Documentation et analyse de la tech vsan/vxrail : (voir dossier "Documentations") : FAIT - A CONFIRMER
 

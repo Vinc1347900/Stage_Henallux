@@ -3,7 +3,7 @@
     - prêt pc et configuration
     - reçu de la feuille de route
     - création du github
-    - ajout du README et TODO
+    - ajout du TODO
     - début des recherches sur le matériel DELL
     - début des recherches sur la technologie VMware
     - création du dossier Documentations
@@ -11,12 +11,11 @@
     - ajout du jour au Carnet
 
 13/2/24 | 9h10 - 17h28
-    - finalisation du README
     - création du dossier Explications
     - début d'écriture sur la sphere VMware et DELL
-    - écriture des informations concernant DELL vxRail
+    - écriture des informations concernant DELL vxRail (voir Explications/DELL VxRail)
     - ajout de documentations concernant DELL (vxRail specs & showcase, iDRAC)
-    - écriture des informations concernant VMware
+    - écriture des informations concernant VMware (voir Explications/VMware)
     - ajout de documentations concernant VMware (showcase, datasheet, licensing)
     - ajout de documents complémentaire pour ma compréhension (VMware NXS, Cloud Fundation) (NSX sera utiliser dans le project, besoin d'approfondir)
     - ajout du jour au Carnet
@@ -24,7 +23,11 @@
 14/2/24 | 9h12 -
     - recherche d'information sur vxRail
     - recherche d'information sur VMware NSX
-    - ajout de documentation concernat DELL vxRAil system tech
+    - ajout de documentation concernant DELL vxRAil system tech (découverte des differentes versions proposées)
+    - pas de VMware Cloud Fundation dans le project !
+    - début des recherches sur DELL vxRail HCI et manager (DELL côté software)
+    - ajout de documentations (à lire) sur DELL vxRail HCI, manager et emc vxRail
+    - ajout du jour au Carnet
 
 15/2/24 |
 
