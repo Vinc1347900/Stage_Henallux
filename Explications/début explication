@@ -1,0 +1,23 @@
+***TEMPORAIRE***
+
+VXRAIL:
+    vxrail est la partie matériel de vmware, on part sur un principe simple de payer pour grandir son infra. le matos est ready and go avec vsphere. vue que c'est 
+        le meme fournisseur, une compatibiliter est total avec tout les produit vmware. un client peut acheter du matos vxrail pour augemter son compute ou simplement son stockage.
+
+    Differents type de vxrail;
+        1. ESA-OSA (besoins d'explication)
+        2. cloud fundation (besoins de précision, c'est liaison entre cloud publique et son private?)
+        3. satelite node permet un ready to use dans les endroits ou il ne faut pas spécialment de grosse machine et de l'infra vsan
+        4. dynamic nodes est pour le compute exclusivent, il vient en addition
+
+VSAN:
+    vsan est une partie software fournit par vmware, vsan est la gestion du stockage. il existe plussieurs type (traditional, cross-cluster capacity sharing, disaggregated storage)
+
+AUTRE:
+    possible d'avoir un pack compatibilité avec k9 mais il faut la version Tanzu qui permet une intégration fluide de k9 avec l'écosystème vmware
+
+
+DOCUMENTATION:
+    VSphere & Vsan : 
+        - trois type a chaque fois, revoir le pdf avec les differences.
+        - vsphere contient l'hyperviseur(ESXI) et vsphere center, celui ci permet une gestion des differents ESXI au travers de l'infra. en d'autres termes c'est un orchestrateur d'hyperviseurs.
