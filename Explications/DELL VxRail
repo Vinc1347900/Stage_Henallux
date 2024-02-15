@@ -1,6 +1,9 @@
 VxRail fait partie de la game de DELL pour fournir un systeme d'infrastructure hyperconvergée utilisant la technologie VMWare. 
 VxRail est optimiser pour etre utiliser avec Vsan et est vendu en ready to use dans un environement existant ou simplement crée son cluster.
-Le grand atout de DELL VxRail est que l'appareil est modulaire, on sait changer les spécification en rapport avec nos besoins. ou le type de noeud que le veut en faire.
+Le grand atout de DELL VxRail est que l'appareil est modulaire, le «paiement selon l’évolution» assure le scale up et le scale out à mesure que les besoins évoluent.
+le scale up est le fait d'ajouter des machines a notre infra, par exemple ajouter une machine vxRail qui sera utiliser pour ajouter du compute a notre closter.
+le scale out est le fait de rajouter, par exemple, des disques dure pour augementer sont stockage.
+Les grandes utilitations: applications graphiques poussée, IA/ML, compute d'applications, réseau kubernets ou simplement implémenter un cloud/cloud hybride.
 
 on retrouve 4 grandes fonctions qui rend VxRail Vsan flexible: 
     
@@ -17,3 +20,13 @@ on retrouve 4 grandes fonctions qui rend VxRail Vsan flexible:
 
 **PARTIE SPEC**
 on retrouve sur le matériels DELL un port iDRAC, cette connectique est une connection d'administration qui est indépendant de l'os, les admins IT peuvent se connecter a distance pour la maintenance ou la mise a niveau du systeme. iDRAC est sécuriser de manière physique avec une authentification a deux facteurs. de plus, on peut utiliser un systeme de certificat qui est automatiquement gerer par le serveur iDRAC dans des connection sécuriser TSL/SSL. pour ajouter plus de sécurité, on retrouve un systeme de vérification automatique des signiatures de l'os ou des signiatures lors de mise a jour du firmware.
+
+**SOFTWARE**
+
+Les machines VMware vxRail sont fournis avec un logiciel produit par DELL en colaboration avec VMware, appeller vxRail HCI. Il sert d’intermédiaire entre les composants d’infrastructure tels que vSAN et VMware Cloud Foundation et offre une expérience opérationnelle transparente et automatisée.
+
+VxRail offre une intégration 100 % native entre vxRail Manager et vCenter. Toutes les fonctionnalités de gestion VxRail sont effectuées au sein de l’interface de vCenter Server. 
+La gestion intelligente du cycle de vie (LCM) automatise les mises à niveau, les correctifs, l’ajout de noeuds et la mise au rebut sans interruption, tout en conservant l’infrastructure vxRail dans un état validé en continu. Cela garantit que les charges applicatives sont opérationnelles et que les clusters sont optimisés. 
+
+Le logiciel VxRail HCI System Software comprend une gestion et une orchestration multicluster SaaS pour assurer la collecte centralisée des données, mais aussi pour offrir une analytique qui utilise l’apprentissage automatique et l’IA afin d’aider les clients à maintenir leur pile HCI à un niveau de performances optimal et de s’assurer qu’elle est prête pour les futures charges applicatives.
+

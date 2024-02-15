@@ -21,3 +21,19 @@ DOCUMENTATION:
     VSphere & Vsan : 
         - trois type a chaque fois, revoir le pdf avec les differences.
         - vsphere contient l'hyperviseur(ESXI) et vsphere center, celui ci permet une gestion des differents ESXI au travers de l'infra. en d'autres termes c'est un orchestrateur d'hyperviseurs.
+_____________________________________________________________________________________________________________________________________________________________________________________
+
+ESXi : 
+    L'hyperviseur de VMware, qui permet de virtualiser les ressources matérielles d'un serveur physique pour exécuter plusieurs machines virtuelles simultanément.
+
+vSphere : 
+    La plateforme de virtualisation complète de VMware, qui comprend ESXi, vCenter Server et d'autres composants pour la gestion, la surveillance et la sécurité de l'environnement virtualisé.
+
+vCenter Server : 
+    Un composant clé de vSphere, utilisé pour la gestion centralisée des environnements virtualisés. Il permet de gérer plusieurs instances ESXi, de créer et de gérer des machines virtuelles, de configurer le stockage et le réseau, et bien plus encore.
+
+vSAN : 
+    VMware vSAN (Storage Area Network virtuel) est une solution de stockage distribué, intégrée à vSphere, qui permet de créer un stockage partagé et hautement disponible à partir des disques locaux des serveurs ESXi.
+
+VxRail : 
+    Une solution d'infrastructure hyperconvergée (HCI) de Dell EMC, construite sur la plateforme VxRail et intégrant VMware vSphere, vSAN et vCenter Server. VxRail simplifie le déploiement et la gestion des environnements virtualisés en fournissant une solution intégrée et prête à l'emploi.
