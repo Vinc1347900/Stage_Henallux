@@ -1,0 +1,10 @@
+on retrouve dans la serie de switch s3100 un controle du trafique via deux type. 
+
+Ethernet Pause Frame Flow Control:
+    - on imagine un serveur de stockage qui est connecter via switch a differents serveurs. ces serveurs envoient des requetes de lecture/ecriture au serveur de stockage. 
+    si le serveur de stockage est surcharger, il peut envoyer un message de pause au switch qui va alors stopper temporairement les requetes vers le stockage. 
+    il va commencer a mettre les requetes dans un buffer jusqu'à arriver a la limite du buffer. il va alors envoyer un message de pause au serveurs pour stopper les requetes.
+    quand le buffers sera vide, il reactivera via un message de reprise les requetes vers le servveur de stockage.
+
+Priority-Based Flow Control:
+    - 

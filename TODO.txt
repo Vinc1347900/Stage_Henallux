@@ -1,0 +1,60 @@
+**ToDo**
+
+1. Compte sur le site dell : 
+**FAIT**    - compte crée
+**FAIT**    - demander a Eric pour avoir la liscence
+
+2. Documentation du matériel qui sera utiliser (kazako, spécification et managment tool) : 
+**FAIT**    2.1: besoins d'approfondire côté software de DELL vxRail HCI et manager
+**FAIT**    2.2: besoins de regarder plus attentivement les switch disponible (model: S5224F-ON | S3124P)
+
+3. Documentation et analyse de la tech vsan/vxrail : (voir dossier "Documentations") : **FAIT**
+
+4. Documentation du licensing VMware vsphere et vsan : (voir dossier "Documentations") : **FAIT**
+
+5. Analyse et documentation sur les réseaux qui seront utiliser(dac,fibre,cuivre) : **FAIT**
+**FAIT**    - DAC (connectique)
+**FAIT**    - rechercher des info par rapport a la version de chez HP, port "iLo"
+**FAIT**    - besoins d'apronfondissement sur VMware NSX
+
+Apres full documentation et découverte du matos;
+6. Création d'un shéma physique et logique du project :
+**A FAIRE**    - visio (app de création de diagram) 
+**A FAIRE**    - vue d'ensemble de l'infra (physique) + comment est faite la gestion (logique)
+
+7. Création d'une time line du project : (!!**CREATION DE LA TIMELINE AVEC GANTT**!!) : **A FAIRE**
+  
+8. Création d'un plan d'adressage IP (voir Reunion/16 Février): 
+            - voir exemple sur teams, suivre cet exemple
+**A FAIRE** - recherche du nombre d'add qui sera mis en place
+**A FAIRE** - utilisation de 10.0.0.0, /8 remis en /24
+
+9. aprofondir vSan (arch global)
+**A FAIRE** - redondance et cablage recomander
+**A FAIRE** - rechercher des info sur erasure coding
+
+10. voir si OSA ou ESA pour l'infra : **A VOIR**
+
+**MISSION** 
+
+1. Prise en main d'une install serveur HP propliant DL360 G9:
+    - recherche de documentations sur le port elo
+    - voir le port de management elo (version hp)
+    - première isntall server 
+    - première install d'un exsi
+
+**QUESTION**
+
+V. DELL 4u (1vSan, 1vCenter+NSX et 2 EXSI) ?
+    - non, chaque unité aura un hyp d'installer avec une couche de gestions avec vCenter installer autre part
+
+V. charge de travail, nombre de worload qui sera sur les deux EXSI ?
+    - pas implementer, quelques workload seront crée pou faire des test mais l'essentiel est la mise en place du serveur et des EXSI.
+
+V. besoins d'une liaison a un cloud existant ?
+    - non, pas de cloud dans la démarche demander
+
+V. vers sous système de la société ou simplement en intranet et donc passer sur; switch on stick?
+    - faire en intern, au besoin acces pubblique
+
+

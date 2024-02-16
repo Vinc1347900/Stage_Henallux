@@ -1,0 +1,21 @@
+16-02-24 | Premier contact en physique avec Francois
+
+faire une recherche plus en profondeur de vSan, besoins de voir comment l'infra est faite en rêgle générale.
+
+!!erasure coding!! - besoin de rechercher des info
+
+s3100-serie pour le management
+s5200-serie pour vSan et data (port 25/100GbE)
+
+layout reseaux (nombre d'ip, explications, arch) -> plan d'adressage IP
+
+n'utilisent pas de "suivit", utilisation de la suite microsoft (Teams)
+
+**info**
+présentation de la maniere de faire le plan d'adressage **VOIR exemple sur Teams**
+VMware NSX sera fait si il reste du temps. la mise en place de NSX peut casser la config des switch (Flow Control)
+
+**mission**
+première mission, mise en place d'un serveur avec 4 EXSi :
+    - prise en main d'une install serveur
+    - prise en main de l'installation d'un EXSI

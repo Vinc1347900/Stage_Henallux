@@ -1,0 +1,118 @@
+VMware est un fourniseur de service et solution IT dans la mise en place de cluster hyperconvergé de machine virtuels. il existe une grande variete de logiciel et d'outils pour l'instalation et la maintenace de VM. 
+Parmis les logiciels et services de VMware on retrouve:
+
+    1. VMware vSphere;
+        il existe deux parties, la première est du coté infrastructure et la seconde coté aplicatif.
+
+        INFRA:
+            vSphere EXSi est un hyperviseur de type 1 qui doit être installer directement sur les serveurs. EXSi offre une couche de virtualisation fiable et utra-perfomante dans le domaine de la virtualisation.
+
+            vSphere SMP (Virtual Symmetric Multiprocessing) accompagne l´hyperviseur pour permetre une utilisation de machines virtuels ultra-puissante comportant jusqu´à 8 processeur virtuel.
+
+            vSphere VMFS (Storage Virtual Machine File System) est une solution qui permet au machine virtuel d´acceder au stockage partagé. on l´utilise aussi avec vSphere vMotion (expliqué plus bas)
+
+            vSphere API Storage integre la possibilité d´utiliser des API dans la protection des données.
+            
+            vSphere vStorage Thin Provisioning permet une allocation dynamique du stockage partagé de maniere hiérarchisé, tout en réduisant les dépenses liées au stockage, jusqu’à 50 %.
+
+        APP:
+            vSphere vMotion en complement de vSphere VMFS permet de migrer à chaud des machines virtuelles entre les serveurs, sans interruption ni perte de service pour les utilisateurs.
+
+            vSphere HA (High Availability) assure le redémarrage automatique et économique de toutes les applications en quelques minutes en cas de panne du matériel ou du système d’exploitation.
+
+            On peut retrouver en plus une fonction d´installation et d´extention a chaud. la premiere solution permet de connecter/déconecter des systems de stockage et reseau à des machines virtuelles sans déconecter ou eteindre ses machine. tandis que le second permet d´ajouter du stockage virtuelle a des machine virtualiser sans intéruptions.
+
+        GESTION:
+            vCenter agent est un logiciel qui permet de lier les hotes vSphere a vCenter server pour une gestions des hotes vSphere centraliser.
+
+            vSphere Update Manager automatise le suivi, l’application des correctifs et les mises à jour pour les hôtes vSphere, les applications et les systèmes d’exploitation exécutés sur les machines virtuelles VMware.
+
+            vCenter Converter permet aux admins IT de convertir des machines physique et virtuelle tierces en machines VMware.
+
+            Client web vSphere donne aux admin IT une gestion de l´infrastructure via une page web.
+
+    2. VMware vSan;
+        est une solution pour la gestion du stockage partager avec les machines virtuelles, vSan vient en temps qu´orchestrateur sur les demande de stockage des VM. On peut retrouver deux type d´architecture:
+
+        1. OSA (Original Storage Architecture) a été déveloper pour donner la meilleur performance sur du stockage sata/sas avec un grand range de compatibilité par rapport aux differents type de disque. les disques sont mis sous forme de groupe de stockage et allouer au machines virtuelles.
+
+        2. ESA (Extended Storage Architecture) est une amélioration de vSan OSA, dans cette version l´utilisation de disque nvme donne une augmentation de puissance tout en diminuer le trafic I/O. de plus on ne met plus les disque dans un groupe de stockage mais un pool, se qui contribue a l´amélioration des perfomances et de la capacité de stockage. on retrouve dans cette version une meilleur compression des fichiers pour un gain de place.
+
+    
+LICENSING: (voir dossier Documentation/vmware pour plus de détails)
+    chez VMware il faut une liscence par rapport au nombre de coeurs par CPU ou par rapports au nombre de VM
+
+    vSphere: on retrouve deux gros type de liscence, par abonement ou par liscence perpetuelle. 
+        par abonnement de 1an/3an/5an, on retrouve 4 éditions:
+            1. vSphere standard : Toutes les fonctionnalités de vSphere Standard (licence perpétuelle) dans un modèle déconnecté du Cloud avec une licence temporaire. 
+                - vCenter Server Profiles
+                - vCenter Server Update Planner
+                - vCenter Standard
+                - Enhanced vMotion Compatibility par VM
+                - Storage Policy-Based Management
+
+            2. vSphere Entreprise Plus : Toutes les fonctionnalités de vSphere Enterprise Plus (licence perpétuelle) dans un modèle déconnecté du Cloud avec une licence temporaire. 
+                - Service VM
+                - Zones de disponibilité des charges de travail
+                - Images du SE de base personnalisables
+                - Tanzu Kubernetes Grid Service
+                - Tanzu Integrated Services
+            
+            3. vSphere+ standard (cloud) : Toutes les fonctionnalités de vSphere Standard (licence perpétuelle) et la connectivité Cloud pour les environnements on-premise. 
+                - Console Cloud
+                - Services d’administration
+                - Service de visibilité sur la capacité
+                - Service de provisionnement des machines virtuelles
+                - Service d’inventaire global
+                - Sauvegarde et restauration vCenter
+            
+            4. vSphere+ (cloud): Toutes les fonctionnalités de vSphere Enterprise Plus (licence perpétuelle) et la connectivité Cloud pour les environnements on-premise.
+                - Console Cloud
+                - Services d’administration
+                - Services aux développeurs
+                - Tanzu Kubernetes Grid
+                - Cloud Consumption Interface
+
+        en prenant par liscence perpetuelle:
+            1. vSphere standard : Solution d´entrée de gamme qui fournit les fonctionnalités essentielles de vSphere.
+                - vSphere Hypervisor (ESXi)
+                - vMotion
+                - Haute disponibilité
+                - vSphere Configuration Profiles 
+                - Mesures verte de vSphere
+
+            2. vSphere Entreprise Plus : Gamme complète de fonctionnalités permettant de transformer les Data Centers en infrastructures Cloud simplifiées. Inclut toutes les fonctionnalités de vSphere Standard, plus, 
+                - vSphere Distributed
+                - Resource Scheduler (DRS)
+                - vSphere Distributed Switch
+                - vSphere Trust Authority
+                - Chiffrement des VM
+                - vSphere on DPUs
+
+    vSan: on retrouve deux options;
+        SaaS:
+            vSan+: offre HCI (hyperconverged infrastructure) avec des services connectés au Cloud qui centralisent la gestion et améliorent l’efficacité.
+                - Transformation de l’infrastructure on-premise grâce à l’intégration du Cloud
+                - Simplification de la maintenance et visibilité centralisée
+                - Options d’abonnement de paiements en fonction des besoins
+
+        On-premise:
+            standard: Convient aux environnements hybrides avec des règles de stockage par machine virtuelle.
+                - Storage Policy-Based Management
+                - Commutateur distribué virtuel
+                - Plan de contrôle de stockage Cloud natif (CNS)
+            
+            advanced: Inclut toutes les fonctionnalités de l’édition Standard et;
+                - Fonctionnalités de rendement de l’espace 100 % Flash
+                - Déduplication et compression
+                - VMware Aria Operations au sein de vCenter
+
+            Entreprise: Inclut toutes les fonctionnalités de l’édition Advanced et;
+                - Chiffrement de données au repos software-defined
+                - Clusters étendus
+                - VMware HCI Mesh
+                - Plate-forme de persistance des données pour les services modernes avec état
+
+            Entreprise Plus: Inclut toutes les fonctionnalités de l’édition Enterprise et;
+                Gestion avancée pour l’optimisation des performances et gestion efficace de la capacité pour transformer les Data Centers en un système d’exploitation du Cloud simple et unifié.
+                - VMware Aria Operations 8 Advanced
