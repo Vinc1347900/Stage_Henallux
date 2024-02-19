@@ -38,10 +38,12 @@ Apres full documentation et découverte du matos;
 **MISSION** 
 
 1. Prise en main d'une install serveur HP propliant DL360 G9:
-    - recherche de documentations sur le port elo
-    - voir le port de management elo (version hp)
-    - première isntall server 
-    - première install d'un exsi
+**FAIT**    - recherche de documentations sur le port elo
+**FAIT**    - voir le port de management elo (version hp)
+**FAIT**    - première isntall server 
+**FAIT**    - première install d'un exsi
+**FAIT**    - complémentaire mais test d'instalation d'une vm Linux sur l'hote
+**FAIT**    - mise en place d'un raid sur le stockage
 
 **QUESTION**
 
@@ -56,5 +58,8 @@ V. besoins d'une liaison a un cloud existant ?
 
 V. vers sous système de la société ou simplement en intranet et donc passer sur; switch on stick?
     - faire en intern, au besoin acces pubblique
+
+V. pour limiter le stockage prit par les os des vm et vue qu'elles seront surement réutiliser, est-il pas plus viable de passer via PXIe pour l'installation des os ?
+    - pas spécialement, il est vrais que l'on prend de l'espace dans les datastore mais il est possible de passer via PXIe. 
 
 

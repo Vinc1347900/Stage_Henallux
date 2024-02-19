@@ -1,0 +1,43 @@
+Après le câblage du serveur, une configuration était déjà en place. La connexion au port de gestion (iLO) est simple : il suffit de se connecter avec un câble RJ45 au port et d'accéder à l'adresse via un navigateur.
+
+Si l'on connecte un ensemble (écran, clavier-souris), on peut accéder à la configuration du serveur. Cela permet d'accéder aux éléments de base d'un serveur comme le menu de démarrage, les informations système ou les logiciels d'HP pour la configuration des disques ou l'installation d'un ESXi.
+
+Pour passer à l'installation d'un ESXi, il faut passer par l'interface web du serveur. Dans mon cas, je n'utilise pas de carte SD ou de clé USB bootable (j'ai changé d'avis plus bas). Je passe par l'interface qui me donne accès au menu de démarrage du serveur pour y ajouter l'ISO de VMware que j'ai téléchargé précédemment. Lorsque l'ISO est uploadée via l'interface web, un simple redémarrage va lancer l'installation de l'ISO.
+
+La première installation a été annulée car il faut regarder pour faire un RAID.
+
+Pour la gestion des disques "RAID", un passage par Intelligent Provisioning est nécessaire. On peut configurer plusieurs types de RAID (0, 1+0, 5 et 6). Dans ce cas, le serveur contient deux disques de 600 Go et deux disques de 300 Go.
+
+Les différents RAID ont leurs avantages et leurs inconvénients :
+
+    - Si l'on veut le plus de stockage possible, on passera par un RAID 0. Le RAID 0 va découper les données en segments et les répartir sur les disques qui sont dans l'array. Le problème du RAID 0 est qu'il n'y a pas de redondance des données en cas de problème avec un disque.
+    - Si l'on veut ajouter une couche de protection en cas de panne, on peut passer sur un RAID 1+0. Le RAID 1+0 est une combinaison de RAID 1 et de RAID 0. Le RAID 1 va dupliquer les données sur deux disques et le RAID 0 va découper les données en segments et les répartir sur les disques. Le RAID 1+0 est plus coûteux en termes de stockage mais plus sécurisé.
+    - Si l'on veut un compromis entre stockage et sécurité, on peut passer par un RAID 5. Le RAID 5 va découper les données en segments et les répartir sur les disques qui sont dans l'array. Le RAID 5 va également ajouter un disque de parité qui va permettre de reconstruire les données en cas de panne d'un disque. Le RAID 5 est moins coûteux en termes de stockage mais moins sécurisé.
+    - Si l'on veut plus de sécurité, on peut passer par un RAID 6. Le RAID 6 est similaire au RAID 5 mais ajoute un deuxième disque de parité. Le RAID 6 est plus coûteux en termes de stockage mais plus sécurisé.
+
+
+Dans ce cas, j'ai pensé à prendre tous les disques dans le même array et faire un RAID 5. Mais après discussion avec les autres, il est vrai que prendre les deux disques de 300 Go pour faire un RAID 1 alloué à l'ESXi et mettre les deux disques de 600 Go avec un RAID 0 pour le stockage peut être une solution plus viable. Dans une configuration de serveur pour des clients, il est généralement "basique" de faire un RAID 1 sur les disques qui seront utilisés avec l'OS. Selon la configuration du serveur (physiquement), on peut retrouver des emplacements de disque préparés pour faire du RAID 1.
+
+Après avoir fait la configuration des disques, j'ai relancé l'installation de l'ESXi. La deuxième fois, j'ai eu une erreur de type 6 - invalid opcode exception. Après quelques recherches et questionnements avec les collègues, il vaudrait mieux passer par des clés USB.
+
+Finalement, je suis passé par une clé USB pour l'installation car via l'iLO, je pense que le taux de transfert est trop faible. Pendant l'installation, il faut créer le mot de passe de l'utilisateur root. Ensuite, il faut choisir sur quel disque installer l'OS.
+
+Quand l'installation est terminée, le serveur boot donc sur l'ESXi et il ne reste qu'un petit changement à faire : se déconnecter du port iLO et se brancher sur un autre port que j'ai configuré de manière statique car je n'ai pas de structure réseau mise à ma disposition. Quand tout est fait, on peut accéder à la page du ESXi Host Client pour avoir accès au management de l'hôte.
+
+Maintenant, il faut aller dans les réglages du stockage pour ajouter le deuxième RAID comme datastore.
+
+Pour tester un peu mon installation, j'ai créé une VM Debian 11. On remarque qu'il y a des options fournies par VMware sur l'utilisation des VMs en plus des options du matériel virtuel. On retrouve par exemple :
+    - VMware Remote Console, qui permet de s'assurer que la VM sera verrouillée quand le dernier utilisateur quittera la VM ou bien de limiter le nombre d'utilisateurs en simultanée.
+    - VMware Tools, qui permet de modifier les options d'alimentation ou bien encore de modifier les options par rapport au script de VMware Tools.
+    - Gestion d'alimentation, qui permet de modifier la mise en veille ou encore le Wake on LAN.
+    - Options de démarrage, qui permet de modifier les options d'amorçage de l'OS.
+    - Options avancées, qui contient les options par rapport au débogage et aux logs.
+
+Le premier lancement fut épatant. De base, le répertoire d'ISO est vide mais l'idée qu'il n'y avait pas d'iso sur la machine ne mets pas venue de suite. La sélection du type d'ISO au moment de la création de la VM est assez remplie. Pour donner accès à l'ISO, il faut l'ajouter dans le deuxième datastore et aller donner le chemin d'accès dans les options de la VM.
+J'ai pensé au démarrage via le réseau **VOIR TODO/QUESTION**
+
+J'ai décidé de tester le serveur en installant une VM Linux pour pouvoir voir quelles sont les options que l'on pourrait retrouver.
+
+**A VOIR**
+
+    - Hot Spare : principe de mettre un disque (qui se trouve dans un array) en stage ou idle et qu'il remplace quasiment directement le disque en défaut.

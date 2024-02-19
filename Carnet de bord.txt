@@ -1,6 +1,6 @@
 12/2/24 | 9h - 17h30
     - présentation de l'entreprise, installation sur desk
-    - prêt pc et configuration
+    - prêt pc et configuration de celui-ci
     - reçu de la feuille de route
     - création du github
     - ajout du TODO
@@ -39,7 +39,7 @@
     - ajout de documentations installation guide s3100 series (spec sheet a lire) 
     - ajout du jour au Carnet
 
-16/2/24 | 9h05 - 
+16/2/24 | 9h05 - 17h25
     - lecture switch s3100 series spec sheet
     - recherche d'informations sur DELL Networking FTOS
     - ajout documentations DELL flow control
@@ -51,7 +51,17 @@
     - recherche d'info sur HPE iLo (même principe que iDRAC mais chez HP)
     - ajout du jour au Carnet
 
-19/2/24 |
+19/2/24 | 9h10 - 17h27
+    - début des recherches sur l'installation de VMware vSphere ESXI sur le serveur HP
+    - ajout de documentation sur l'installation d'un ESXI sur hp
+    - début de manipulation sur le serveur HP, pour les détails voir **VOIR Explication/HPServer**
+    - création du dossier ISO **PAS PUSH SUR GitHub**
+    - recherche de documentation sur HPE Smart Storage Administrator
+    - ajout de documentation sur HPE SSA
+    - recherche de documentation sur les differents type de raid (0, 1, 1+0, 5 et 6) **surement voir plus tard pour trouver une bonne explication a mettre dans le TFE**
+    - fin de manipulation, il faut aprofondir les options possible dans vSphere mais ici c'etait une mise en bouche de comment installer un serveur et un hote EXSi plus gestion du stockage.
+    - ajout du jour au Carnet
+
 
 20/2/24 |
 
