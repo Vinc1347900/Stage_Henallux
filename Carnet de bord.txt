@@ -63,7 +63,14 @@
     - ajout du jour au Carnet
 
 
-20/2/24 |
+20/2/24 | 9h15 - 17h20
+    - discution avec le maitre de stage a propos des softskills, besoin de mettre en place un meeting pour en discuter
+    - retranscription du fichier TODO sur la suite Microsoft Teams pour rejoindre l'utilisation de l'entreprise
+    - reprise de la mission 1, prise de capture d'écran et annalyse des options dans l'ESXi Host Client, l'hote HPE, Smart provisioning
+    - recherche structure de "base" de vSan
+    - ajout documentation deployment guide (reprendre a la page 49)
+    - ajout documentation conception de réseau (A LIRE)
+    - ajout documentation administration guide (A LIRE)
 
 21/2/24 |
 

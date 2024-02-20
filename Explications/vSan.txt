@@ -1,0 +1,9 @@
+on retrouv plusieur type de stockage dans l'environement vmware.
+
+    1. Stockage local: kdes disque de stockage interne ou connecter a un systeme de stockage tell qu'un SAS ou SATA 
+        it is not a best practice. Using single connections  between storage devices and hosts creates single points of failure (SPOF) that can cause interruptions when a connection becomes unreliable or fails. However, because most of local storage devices do not support multiple connections, you cannot use multiple paths to access local storage. 
+        ESXi supports various local storage devices, including SCSI, IDE, SATA, USB, SAS, flash, and  NVMe devices. if you use a cluster of hosts that have just local storage devices, you can implement vSAN. vSAN transforms local storage resources into software-defined shared storage
+    
+    2. Stockage via le réseau: 
+        Networked storage consists of external storage systems that your ESXi host uses to store virtual machine files remotely. Typically, the host accesses these systems over a high-speed storage network.
+        Networked storage devices are shared. Datastores on networked storage devices can be accessed by multiple hosts concurrently.
