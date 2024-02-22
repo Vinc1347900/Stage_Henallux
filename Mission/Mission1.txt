@@ -1,0 +1,38 @@
+écrire sur l'install serveur, config du raid, l'install de l'exsi, la config du datastore et le déployement d'une vm
+
+____________________________________________________________________________________________________________________________________________________________________________
+
+configuration du switch:
+    - Vlan 10 - management
+        - deux connection depuis l'exsi pour de la redondance
+            Pour se qui est de la redondance de la connection de management, il aller ajouter le port physique dans la gestion des cartes du vSwitch. la deuxieme carte se mettra en mode veille attendant que la première perde la connexion. (test de débrancher le cable sur le switch durant un ping -t, la transition est imediate)
+        - une connection pour le pc
+    
+    - Vlan 20 - primary
+        - serveur dns (SRV_DNS) avec le domaine vinc.stage
+    
+    - Vlan 30 - voiceIp
+
+    - Vlan 40 - iLo
+        - une connection vers le prot iLo
+
+
+pour des question de faciliter il faut un serveur dns dans le range du esxi car l'install du vcenter doit pouvoir résoudre les noms.
+étant dans un environement de test, le vlan 20 a un serveur dns. pour savoir faire l'install de vCenter Server il faut un dns dans le vlan10. 
+a voir si durant la mission il est utile de faire communiquer les deux dns. mais dans cet environement fermer je pense qu'il sera pas possible de le faire.
+    - non, de la manière dont j'ai fais est bonne mais il est aussi possible de ne pas ajouter de group de port sur le vSwitch0 pour laisser la vm communiquer avec le esxi.
+        une maniere de faire est de tagger les vm dans le bon vlan et laisser le switch physique gerer. ainsi il est possible d'utiliser (dans le cas ou il y a) une liaison plus rapide (10GbE pour les vm normalement)
+
+l'installation depuis le pc de l'entreprise doit etre lancer en mode administrateur ! sinon il y a des erreurs lors de l'install de l'exsi au niveau de l'ovftool
+
+durant l'instalation, il est demander de donner un fqdn pour vcenter SSO. le fqdn que l'on met est celui qui devra etre utiliser lors de la connection sur vcenter server
+
+
+**QUESTION**
+ 
+
+
+
+**A FAIRE**
+test des snapshoot
+creer un new disque ou augmenter la taille des disques

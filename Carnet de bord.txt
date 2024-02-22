@@ -72,9 +72,23 @@
     - ajout documentation conception de réseau (A LIRE)
     - ajout documentation administration guide (A LIRE)
 
-21/2/24 |
+21/2/24 | 9h17 - 17h23
+    - reprise de la lecture des documents préparer la veille (reprendre a la page 56)
+    - proposition d'approfondire la mission 1 **VOIR TODO ET Mission/Mission1** 
+    - configuration switch (vlan) pour segmenter le management serveur des vm
+    - installation windows serveur pour en faire un dns
+    - début d'installation de vCenter Server (probleme sur la segmentation du reseau car l'installation doit résoudre les nom de domaine, reprise demain pour une install de srv dns)
+    - ajout du jour au Carnet
 
-22/2/24 |
+22/2/24 | 9h15 - 
+    - reprise de la mission 1
+    - configuration d'un serveur dns dans le vlan de management
+    - installation de vCenter Server et configuration de celui-ci
+    - recherche sur le fonctionnement de vCenter Server
+    - debut de configuration d'un cluster sur vcenter
+    - découverte des options proposées
+    - test d'une snapshot (tout a crash, a revoir)
+    - ajout du jour au Carnet
 
 23/2/24 |
 

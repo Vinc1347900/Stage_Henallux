@@ -45,6 +45,15 @@ Apres full documentation et découverte du matos;
 **FAIT**    - complémentaire mais test d'instalation d'une vm Linux sur l'hote
 **FAIT**    - mise en place d'un raid sur le stockage
 
+2. avancement dans la partie network:
+**FAIT**    - mise en place d'une vm dns
+    - ntp sur la vm
+**FAIT**    - mise en place d'un switch avec vlan (3)
+**~FAIT**    - mise en place de deux vm qui peuvent communiquer avec le pc
+**FAIT**    - vlan management, vlan iLo et un vlan pour les vm (data et VOIP)
+**FAIT**    - configurer un vswitch et mettre (association ou corespondance)
+**FAIT**    - corespondre les add entre les vlan 
+
 **QUESTION**
 
 V. DELL 4u (1vSan, 1vCenter+NSX et 2 EXSI) ?
