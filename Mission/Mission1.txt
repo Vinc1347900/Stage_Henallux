@@ -2,7 +2,7 @@
 
 ____________________________________________________________________________________________________________________________________________________________________________
 
-configuration du switch:
+configuration du switch (voir Mission/Range ip et vlan pour les informations):
     - Vlan 10 - management
         - deux connection depuis l'exsi pour de la redondance
             Pour se qui est de la redondance de la connection de management, il aller ajouter le port physique dans la gestion des cartes du vSwitch. la deuxieme carte se mettra en mode veille attendant que la première perde la connexion. (test de débrancher le cable sur le switch durant un ping -t, la transition est imediate)
@@ -28,9 +28,13 @@ l'installation depuis le pc de l'entreprise doit etre lancer en mode administrat
 durant l'instalation, il est demander de donner un fqdn pour vcenter SSO. le fqdn que l'on met est celui qui devra etre utiliser lors de la connection sur vcenter server
 
 
-**QUESTION**
- 
+lors de l'installation de vCenter server, une vm est crée vSphere Cluster Service (vCLS), elle est activé par défaut et s'exécute dans tous les clusters vSphere. vCLS garantit que si vCenter Server devient indisponible, les services de cluster restent disponibles pour préserver les ressources et la santé des charges de travail qui s'exécutent dans les clusters.
 
+Creation d'un nouveau utilisateur avec des droits spécifique. lui donner seulement le management de vm. crée en une et test deux trois truc pour voir si il a bien les droits.
+
+la creation de snapshot et la restauration est assez transparente, faite sur une vm linux avec quelques fichier. la restauration est faite alors que la vm est allumer et la restauration ne se ressent quasiment pas.
+
+la creation d'un nouveau disque est directement repris par la vm. pour ce qui est de l'augmentation de la taille je ne sais pas si c'est possible (besoin de recherche)
 
 
 **A FAIRE**

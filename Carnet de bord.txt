@@ -77,10 +77,10 @@
     - proposition d'approfondire la mission 1 **VOIR TODO ET Mission/Mission1** 
     - configuration switch (vlan) pour segmenter le management serveur des vm
     - installation windows serveur pour en faire un dns
-    - début d'installation de vCenter Server (probleme sur la segmentation du reseau car l'installation doit résoudre les nom de domaine, reprise demain pour une install de srv dns)
+    - début d'installation de vCenter Server (probleme sur la segmentation du reseau car l'installation doit résoudre les nom de domaine, reprise demain pour une install d'un srv dns)
     - ajout du jour au Carnet
 
-22/2/24 | 9h15 - 
+22/2/24 | 9h15 - 17h28
     - reprise de la mission 1
     - configuration d'un serveur dns dans le vlan de management
     - installation de vCenter Server et configuration de celui-ci
@@ -90,7 +90,17 @@
     - test d'une snapshot (tout a crash, a revoir)
     - ajout du jour au Carnet
 
-23/2/24 |
+23/2/24 |- 9h18 - 17h25
+    - reprise de la mission 1
+    - recherche sur le fonctionnement des autorisations dans vCenter
+    - manipulation des vm avec un compte non-admin
+    - test d'une snapshots (réussi)
+    - fin de la mission 1
+    - participation a une reunion "TechSpeech", Ekahau, Technologie de localisation wifi, permet de placer des Access Point (AP) pour une couverture optimale et de localiser les appareils connectés
+    - démonstration d'une infra HCI client. Pour voir un peu a quoi resemble un environement concret
+    - reunion avec le maitre de stage pour discuter des softskills
+    - reprise de la lecture des documents préparer le 20/2 (reprendre a la page 93)
+    - ajout du jour au Carnet
 
 26/2/24 |
 
