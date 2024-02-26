@@ -69,7 +69,7 @@
     - reprise de la mission 1, prise de capture d'écran et annalyse des options dans l'ESXi Host Client, l'hote HPE, Smart provisioning
     - recherche structure de "base" de vSan
     - ajout documentation deployment guide (reprendre a la page 49)
-    - ajout documentation conception de réseau (A LIRE)
+    - ajout documentation conception réseau (A LIRE)
     - ajout documentation administration guide (A LIRE)
 
 21/2/24 | 9h17 - 17h23
@@ -90,7 +90,7 @@
     - test d'une snapshot (tout a crash, a revoir)
     - ajout du jour au Carnet
 
-23/2/24 |- 9h18 - 17h25
+23/2/24 | 9h18 - 17h25
     - reprise de la mission 1
     - recherche sur le fonctionnement des autorisations dans vCenter
     - manipulation des vm avec un compte non-admin
@@ -102,7 +102,15 @@
     - reprise de la lecture des documents préparer le 20/2 (reprendre a la page 93)
     - ajout du jour au Carnet
 
-26/2/24 |
+26/2/24 | 9h15 - 17h25
+    - élaboration du plans logique de la mission (sujet du stage)
+    - élaboration du plans d'adressage IP de la mission
+    - début de création du Gantt (besoins d'en parler avec Mr Petten)
+    - reprise de la lecture sur le deployement guide
+    - lecture de la documentation conception réseau
+    - lecture de la documentation administration guide
+    - recherche sur le materiel que l'on me donne (recherche des differents ports pour réflechir au plan d'adressage)
+    - ajout du jour au Carnet
 
 27/2/24 |
 
