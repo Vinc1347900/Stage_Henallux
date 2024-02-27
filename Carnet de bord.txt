@@ -104,7 +104,7 @@
 
 26/2/24 | 9h15 - 17h25
     - élaboration du plans logique de la mission (sujet du stage)
-    - élaboration du plans d'adressage IP de la mission
+    - élaboration du plans d'adressage IP de la mission (v1)
     - début de création du Gantt (besoins d'en parler avec Mr Petten)
     - reprise de la lecture sur le deployement guide
     - lecture de la documentation conception réseau
@@ -112,7 +112,15 @@
     - recherche sur le materiel que l'on me donne (recherche des differents ports pour réflechir au plan d'adressage)
     - ajout du jour au Carnet
 
-27/2/24 |
+27/2/24 | 9h13 -
+    - essaie sur le titre et le synopsys du TFE
+    - reunion avec Francois, voir **Reunion/reunion - 27 Février**
+    - reprise du plan d'adressage (v2)
+    - reprise du plan logique (v2, définitif ?)
+    - reprise du 
+    - préconfiguration des serveurs DNS et vCenter Server (version 7 ou 8 a installer ?)
+    - recherche d'information sur les vlan sur le switch 5524 et 3124
+    - ajout du jour au Carnet
 
 28/2/24 |
 

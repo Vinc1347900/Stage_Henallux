@@ -1,0 +1,19 @@
+27-02-2024 | Suivit de stage plus préparation au sujet de stage
+
+regarder vlan tagging sur vmware (regarder sur l'infra hp)
+
+meilleur cloisonement entre les vlan (plus grand range dans l'id)
+
+refaire de la pratique sur les vlans 
+
+préparer les deux serveurs dns
+
+voir naming conventions (nomage des esxi)
+
+sous domaine pour le management
+
+préparer vCenter avec le nom de domaine
+
+préparer les commandes des switch DELL
+
+présentation du titre et le synopsys du TFE, pas de remarque particulière

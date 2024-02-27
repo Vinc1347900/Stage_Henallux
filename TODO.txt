@@ -19,21 +19,23 @@
 
 Apres full documentation et découverte du matos;
 6. Création d'un schéma physique et logique du project :
-**A FAIRE**    - visio (app de création de diagram) 
-**A FAIRE**    - vue d'ensemble de l'infra (physique) + comment est faite la gestion (logique)
+**FAIT**    - visio (app de création de diagram) 
+**FAIT**    - vue d'ensemble de l'infra (physique) + comment est faite la gestion (logique)
 
-7. Création d'une time line du project : (!!**CREATION DE LA TIMELINE AVEC GANTT**!!) : **A FAIRE**
+7. Création d'une time line du project : (!!**CREATION DE LA TIMELINE AVEC GANTT**!!) : **FAIT mais besoin de complémenter**
   
 8. Création d'un plan d'adressage IP (voir Reunion/16 Février): 
             - voir exemple sur teams, suivre cet exemple
-**A FAIRE** - recherche du nombre d'add qui sera mis en place
-**A FAIRE** - utilisation de 10.0.0.0, /8 remis en /24
+**FAIT** - recherche du nombre d'add qui sera mis en place
+**FAIT** - utilisation de 10.0.0.0, /8 remis en /24
 
 9. aprofondir vSan (arch global)
-**A FAIRE** - redondance et cablage recomander
-**A FAIRE** - rechercher des info sur erasure coding
+**FAIT** - redondance et cablage recomander
+**FAIT** - rechercher des info sur erasure coding
 
 10. voir si OSA ou ESA pour l'infra : **A VOIR**
+
+11. aprofondir les limitations de vmware
 
 **MISSION** 
 
@@ -70,5 +72,3 @@ V. vers sous système de la société ou simplement en intranet et donc passer s
 
 V. pour limiter le stockage prit par les os des vm et vue qu'elles seront surement réutiliser, est-il pas plus viable de passer via PXIe pour l'installation des os ?
     - pas spécialement, il est vrais que l'on prend de l'espace dans les datastore mais il est possible de passer via PXIe. 
-
-
