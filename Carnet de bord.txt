@@ -112,17 +112,28 @@
     - recherche sur le materiel que l'on me donne (recherche des differents ports pour réflechir au plan d'adressage)
     - ajout du jour au Carnet
 
-27/2/24 | 9h13 -
+27/2/24 | 9h13 - 17h27   
     - essaie sur le titre et le synopsys du TFE
     - reunion avec Francois, voir **Reunion/reunion - 27 Février**
     - reprise du plan d'adressage (v2)
     - reprise du plan logique (v2, définitif ?)
-    - reprise du 
+    - reprise du Gantt
     - préconfiguration des serveurs DNS et vCenter Server (version 7 ou 8 a installer ?)
     - recherche d'information sur les vlan sur le switch 5524 et 3124
     - ajout du jour au Carnet
 
-28/2/24 |
+28/2/24 | 9h17 - 17h21
+    - mise a jour du Gantt
+    - pré-configurations de vcenter 8 (la version 8 selon l'équipe est pas mal remplit de bug, je peux quand même choisir)
+        - erreur lors de l'export sous OVF du serveur DSN 1 (erreur de connexion, retelecharger le fichier) et tester l'import
+        - pour l'installation de vCenter 8 il faut retirer la version 7 car pas assez d'espace
+        - configuration pour la nouvelle infra mais impossible d'acceder au vCenter (ping ok, acces console ok, mais pas d'acces web)
+            - sous problème avec le serveur DNS, erreur de communiquation entre vCenter et le DNS
+            - pas un soucis de réseau, vCenter est dans le vlan de management donc il sais acceder au esxi et au dns
+            - resolu avec la remise en place des anciens nom de domaine. alors que le dns a leux deux noms de domaine pour la configuration et qu'un nslookup revois bien les bonnes infos
+            - NOTE A SOIS MEME : Faire attention de quesqu'y est selection avant de suprimer !!!
+        - ajout du jour au Carnet
+    
 
 29/2/24 |
 

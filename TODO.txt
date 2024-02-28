@@ -37,6 +37,8 @@ Apres full documentation et découverte du matos;
 
 11. aprofondir les limitations de vmware
 
+12. apronfondir les types de Raid
+
 **MISSION** 
 
 1. Prise en main d'une install serveur HP propliant DL360 G9:

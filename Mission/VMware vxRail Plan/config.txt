@@ -1,0 +1,4 @@
+Stockage:
+    - 2x M2 480Gb : utiliser pour l'os en raid 1
+    - 4x SAS 3.8Tb : utiliser dans vSan en raid à 6 ou 10 (il faut voir les besoins de stockage et les performances attendues)
+    - 2x nvme 375Gb : utiliser dans vSan en temps que cache
