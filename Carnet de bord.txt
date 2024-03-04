@@ -96,7 +96,7 @@
     - manipulation des vm avec un compte non-admin
     - test d'une snapshots (réussi)
     - fin de la mission 1
-    - participation a une reunion "TechSpeech", Ekahau, Technologie de localisation wifi, permet de placer des Access Point (AP) pour une couverture optimale et de localiser les appareils connectés
+    - parhhticipation a une reunion "TechSpeech", Ekahau, Technologie de localisation wifi, permet de placer des Access Point (AP) pour une couverture optimale et de localiser les appareils connectés
     - démonstration d'une infra HCI client. Pour voir un peu a quoi resemble un environement concret
     - reunion avec le maitre de stage pour discuter des softskills
     - reprise de la lecture des documents préparer le 20/2 (reprendre a la page 93)
@@ -135,11 +135,23 @@
         - ajout du jour au Carnet
     
 
-29/2/24 |
+29/2/24 | DAY OFF
+    - écriture du titre et synopsys
+    - recherche structure "type" pour le TFE
 
-1/3/24 |
+1/3/24 | Maladie
 
-4/3/24 |
+4/3/24 | 9h15 - 17h20
+    - envois mail, proposition du titre et synopsys
+    - envois mail, visite du stage
+    - envois mail, proposition du Gantt
+    - acces DELL Collaborateur (découverte des services proposés)
+    - refonte du Gantt (voir **Gantt/**) 1 planification et l'autre *hitorique réel* 
+    - lecture présentation de DELL vxRail
+    - ajout documentation sur DELL vxRail
+    - recherche d'informations sur Dell SmartFabric
+    - ajout user guide DELL SmartFabric os10
+    - ajout du jour au Carnet
 
 5/3/24 |
 
