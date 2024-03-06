@@ -153,9 +153,21 @@
     - ajout user guide DELL SmartFabric os10
     - ajout du jour au Carnet
 
-5/3/24 |
+5/3/24 | 9h10 - 15h30
+    - mise en forme du TFE
+    - modification du Gantt
+    - reflexion sur comment commencer le TFE
+    -ajout du jour au Carnet
+    
 
-6/3/24 |
+6/3/24 | 9h10 - 17h19
+    - écriture du TFE
+    - reception du matériel, prise de photo (un peu de triche, le cable management et déjà fait)
+    - dérouler du début de mission :
+        - configuration du switch de management (manque d'info a rajouter !!)
+        - configuration des deux switch data (vsan utilise les mêmes cables que le data ?)
+        - début d'installationdu esxi mais fin de journée reprise demain
+    -ajout du jour au Carnet
 
 7/3/24 |
 

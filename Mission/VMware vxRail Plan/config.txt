@@ -2,3 +2,20 @@ Stockage:
     - 2x M2 480Gb : utiliser pour l'os en raid 1
     - 4x SAS 3.8Tb : utiliser dans vSan en raid à 6 ou 10 (il faut voir les besoins de stockage et les performances attendues)
     - 2x nvme 375Gb : utiliser dans vSan en temps que cache
+
+
+
+
+config du switch de management, 3 vlan (200-210-230) :
+    - vlan 200 : ESXI
+    - vlan 210 : iDrac
+    - vlan 230 : Switchs
+
+normalement le switch de management est bon.
+
+les s52224f son proteger par mdp, le premier n'a pas été renitialiser, le deuxieme oui. en passant par l'utilisateur linuxadmin je sais changer le mdp de l'admin et puis lancer un delete du startup-config. (donc 3 utilisateurs de base avec le mdp de base. pour des question de sécurité il faut penser a les changer)
+le deuxieme été factory mais je lance quand meme un delete du startup-config.
+sur les s5224f on a les vlan 230 pour le management et 800 pour le vsan. il reste le vlan pour les vm mais :
+    - on sait faire un range de vlan ? si pas je le laisse en switchport access ?
+
+
