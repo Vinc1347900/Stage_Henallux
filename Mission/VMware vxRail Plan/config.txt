@@ -19,3 +19,24 @@ sur les s5224f on a les vlan 230 pour le management et 800 pour le vsan. il rest
     - on sait faire un range de vlan ? si pas je le laisse en switchport access ?
 
 
+reconception:
+
+switch de management 
+    vlan 200:
+        # interface vlan 200
+        # vlan-name ESXI
+        # no ip address dhcp
+        # ip address 10.0.20.1/24
+        # no shutdown
+    vlan 200:
+        # interface vlan 200
+        # vlan-name iDrac 
+        # no ip address dhcp
+        # ip address 10.0.21.1/24
+        # no shutdown
+    vlan 220:
+        # interface vlan 200
+        # vlan-name Infra 
+        # no ip address dhcp
+        # ip address 10.0.22.1/24
+        # no shutdown
