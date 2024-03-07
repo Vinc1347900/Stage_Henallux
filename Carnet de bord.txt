@@ -169,7 +169,14 @@
         - début d'installationdu esxi mais fin de journée reprise demain
     -ajout du jour au Carnet
 
-7/3/24 |
+7/3/24 | 9h20 - 17h24
+    - reprise a 0 pour les switches, priorité au s3124p pour la gestion des autre switch et les serveurs vxRAil
+        - creation des vlan 200,210,230 (pour le 230 "management des switch" il faut voir avec francois comment faire car je peux mettre l'add sur l'interface mais alors rien dans l'int du vlan et inversement)
+        - note a sois meme : lors de l'attibution des int dans les vlan c'est en untagged
+        - creation du vlan 220 pour les vm vsphere et dns.
+    - installation des esxi sur les 4 serveurs
+    - installation de vcenter et creation du cluster vsan sur le serveur 1
+    - ajout du jour au Carnet    
 
 8/3/24 |
 

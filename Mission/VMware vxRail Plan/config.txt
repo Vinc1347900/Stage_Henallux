@@ -19,24 +19,22 @@ sur les s5224f on a les vlan 230 pour le management et 800 pour le vsan. il rest
     - on sait faire un range de vlan ? si pas je le laisse en switchport access ?
 
 
-reconception:
+jour deux:
 
-switch de management 
-    vlan 200:
-        # interface vlan 200
-        # vlan-name ESXI
-        # no ip address dhcp
-        # ip address 10.0.20.1/24
-        # no shutdown
-    vlan 200:
-        # interface vlan 200
-        # vlan-name iDrac 
-        # no ip address dhcp
-        # ip address 10.0.21.1/24
-        # no shutdown
-    vlan 220:
-        # interface vlan 200
-        # vlan-name Infra 
-        # no ip address dhcp
-        # ip address 10.0.22.1/24
-        # no shutdown
+    dans le tagging des interfaces dans le vlan faire attention que c'est la commandes untagged et pas tagged !
+
+
+dans un premier temps on va démarer les serveur et lancer le livecycling management. on configure l'adresse de l'idrac et on lance ensuite l'installation d'un SE
+on configure le raid 1 sur les deux nvme de 480Gb pour l'os. apres cette config on peut choisir quel os installer. ici on config pour un autre os (possible de choisir windows, centos et d'autre)
+on chpoisis la clés usb et on boot dessus pour l'install de l'esxi
+
+quand l'instalateur boot, on choisis le disque d'installation (ici le raid1) puis on met le mdp d'acces. au reboot on va dans la config réseau et on va configuer l'adresse de l'esxi
+
+apres l'installation des esxi et la config en rapport, je branche et configure le vlan pour le serveur vsphere et les deux serveur dns.
+je lance l'installation de vsphere remotly et crée en meme temps le cluster vsan. ici c'est pas un ESA mais un OSA. je selection les 3.4To en temps que stockage et claim les deux nvme en cache. j'ai activer la duplication et réplication.
+configure l'adresse ip et la nic en rapport au vlan 220 puis lance l'installation.
+
+j'ai changer le numéro du vlan du 
+
+A FAIRE :
+    refaire l'hostname du server 1 et 3.
