@@ -14,27 +14,51 @@ config du switch de management, 3 vlan (200-210-230) :
 normalement le switch de management est bon.
 
 les s52224f son proteger par mdp, le premier n'a pas été renitialiser, le deuxieme oui. en passant par l'utilisateur linuxadmin je sais changer le mdp de l'admin et puis lancer un delete du startup-config. (donc 3 utilisateurs de base avec le mdp de base. pour des question de sécurité il faut penser a les changer)
-le deuxieme été factory mais je lance quand meme un delete du startup-config.
+le deuxieme était en mode factory mais je lance quand meme un delete du startup-config.
 sur les s5224f on a les vlan 230 pour le management et 800 pour le vsan. il reste le vlan pour les vm mais :
     - on sait faire un range de vlan ? si pas je le laisse en switchport access ?
 
 
-jour deux:
-
+2ème jour:
     dans le tagging des interfaces dans le vlan faire attention que c'est la commandes untagged et pas tagged !
+    dans un premier temps on va démarer les serveur et lancer le livecycling management. on configure l'adresse de l'idrac et on lance ensuite l'installation d'un SE
+    on configure le raid 1 sur les deux nvme de 480Gb pour l'os. apres cette config on peut choisir quel os installer. ici on config pour un autre os (possible de choisir windows, centos et d'autre)
+    on chpoisis la clés usb et on boot dessus pour l'install de l'esxi
+    quand l'instalateur boot, on choisis le disque d'installation (ici le raid1) puis on met le mdp d'acces. au reboot on va dans la config réseau et on va configuer l'adresse de l'esxi
+    apres l'installation des esxi et la config en rapport, je branche et configure le vlan pour le serveur vsphere et les deux serveur dns.
+    je lance l'installation de vsphere remotly et crée en meme temps le cluster vsan. ici c'est pas un ESA mais un OSA. je selection les 3.4To en temps que stockage et claim les deux nvme en cache. j'ai activer la duplication et réplication.
+    configure l'adresse ip et la nic en rapport au vlan 220 puis lance l'installation.
 
+3ème jour
+    finalement c'est un no shutdown dans l'interface du vlan 200 qui manquait pour pouvoir acces au autres vlan.
+    ajout d'un port ldap pour avoir acces a internet sur le switch de management
+    réinstallation de vsphere serveur sur le premier serveur
+    probleme, vue qu'il y a pas de serveur dns, vcenter refuse la connection. besoin d'ajouter un dns
+    impossible d'importer l'OVF du server dns. obliger d'en refaire un
+    probleme vsan ne veut rien recevoir sur la banque de donnée. obliger de metre le serveur dns sur le raid de l'os pour le moment.
+    reprise de l'installation de vcenter
 
-dans un premier temps on va démarer les serveur et lancer le livecycling management. on configure l'adresse de l'idrac et on lance ensuite l'installation d'un SE
-on configure le raid 1 sur les deux nvme de 480Gb pour l'os. apres cette config on peut choisir quel os installer. ici on config pour un autre os (possible de choisir windows, centos et d'autre)
-on chpoisis la clés usb et on boot dessus pour l'install de l'esxi
+4ème jour
+    reprise de la configuration de vsan, il faut d'abord que je configure le reseau 25Gb (un des soucis que j'ai vue est que les cable dac fournis par Nexis ne va pas sur le matos. donc obliger de rester a seulement 4 connection par switch)
+    création d'un distributed switch avec la configuration d'une vmKernel pour vsan.
+    quand tout est bon on peut aller claim les disques des autres serveur pour les intégrer dans le cluster.
+    dans l'onglet surveiller/vsan, on retrouve un résumé de l'état du cluster. il y a aussi des alertes de santé et de capacité. on peut directement de la regler les probleme.
+    il faut pour le bon fonctionnement de vsan a mettre en place une référence a un serveur ntp. pour le configurer il faut acceder a vsphere "admin" en :5480
+    déploiement du deuxieme serveur dns et remise du premier dans le bon format de stockage (static a dynamique)
 
-quand l'instalateur boot, on choisis le disque d'installation (ici le raid1) puis on met le mdp d'acces. au reboot on va dans la config réseau et on va configuer l'adresse de l'esxi
-
-apres l'installation des esxi et la config en rapport, je branche et configure le vlan pour le serveur vsphere et les deux serveur dns.
-je lance l'installation de vsphere remotly et crée en meme temps le cluster vsan. ici c'est pas un ESA mais un OSA. je selection les 3.4To en temps que stockage et claim les deux nvme en cache. j'ai activer la duplication et réplication.
-configure l'adresse ip et la nic en rapport au vlan 220 puis lance l'installation.
-
-j'ai changer le numéro du vlan du 
-
-A FAIRE :
-    refaire l'hostname du server 1 et 3.
+5ème jour
+    Changemetn sur chaque esxi le hostname
+    configuration du démarage automatique des vm
+    !! Recherche d'info sur vmware drs !!
+    creation de vm pour des tests (besoins de faire une serveur dhcp sur les switch data pour les vm)
+    abandon du dhcp, dans la topologie actuel, il manque une séparation entre les vm et le reseau vsan. probleme le cablage est manquant et donc je ne sais pas faire de séparation.
+    mise en mode de maintenance de l'hote 3, on a une option de prévérification qui nous donne des info sur de possible problèmes si l'hote est mis en mode de maintenance.
+    le transfert des vm est automatique et snas intéruption, test sur une windows 10 durant le transfert. on ne remarque pas de perde de puissance ou de lag.
+    le choix de l'hote est automatique, dans ce test, la windows 10 est parti de l'hote 3 vers l'hote 1 qui ne possede pas de vm. tandis que la linux est partie sur l'hote 4 avec la vm DNS
+    quand les vm sont transferées, on peut mettre l'hote en mode de maintenance. on peut voir que les vm sont bien transferées et que l'hote est bien en mode de maintenance.
+    quitter le mode de maintenance remet l'hote dans le cluster actif et est synchroniser, l'hote est pret a partager ces resources dans le cluster.
+    test de mettre l'hote ou la vm de vsphere est en mode de maintenance, aucun soucis, l'utilisation de vsphere n'est pas couper.
+    test en retirer un lien 25Gb sur les hotes 1,2 et 3  sur les deux switch data, aucun soucis, le cluster est toujours actif et les vm sont toujours en ligne. lancement de la mise ne maintenance de l'hote 4 avec plusieur liens mort, un peut plus long mais aucun soucis.
+    test de couper de maniere dure l'hote 1, il faut attendre quelques 10ène de seconde pour que les vm presentes soient transferer vers un autre host (on perd la connection a la vm avant qu'elle soit relancer sur l'autre hote)
+    lors de la remise en route de l'hote 1, celui-çi est reconnecter au cluster et une remise en place de vsan est lancer. du début du test jusqu'a la reconnection de l'hote 1 il faut compter 5 min. tandis que la remise en marche des vm est dans la minute apres la perte de l'hote.
+    tout ces options de mise a disposition et maintient de la disponibilité est assurer avec vmware HA et DRS

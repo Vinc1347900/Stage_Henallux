@@ -172,17 +172,35 @@
 7/3/24 | 9h20 - 17h24
     - reprise a 0 pour les switches, priorité au s3124p pour la gestion des autre switch et les serveurs vxRAil
         - creation des vlan 200,210,230 (pour le 230 "management des switch" il faut voir avec francois comment faire car je peux mettre l'add sur l'interface mais alors rien dans l'int du vlan et inversement)
-        - note a sois meme : lors de l'attibution des int dans les vlan c'est en untagged
+        - note a sois meme : lors de l'attibution des int dans les vlan c'est en untagged (voir diff tagged-untagged)
         - creation du vlan 220 pour les vm vsphere et dns.
     - installation des esxi sur les 4 serveurs
-    - installation de vcenter et creation du cluster vsan sur le serveur 1
+    - installation de vcenter et creation du cluster vsan sur le serveur 2
     - ajout du jour au Carnet    
 
-8/3/24 |
+8/3/24 | 9h15 - 17h25
+    - résolution du probleme d'inter-vlan
+    - mise en place d'une interface en ldap pour avoir acces a internet depuis le switch de management 
+    - réinstallation de vsphere server sur le serveur 1
+    - résolution du problème lier avec l'int de management : ajout d'une add sur l'int mgt puis un ip management route (diférent des ip route classique, exclusif au management). acces a toutes les interface de management
+    - début de configuration de vsan mais besoin de suprimer celui qui est sur le serveur 2. et besoins de config les deux switch data
+    - ajout du jour au Carnet
 
-11/3/24 |
+11/3/24 | 9h10 - 17h20
+    - reprise de configurationd des switchs mise en NBL des int data et vsan
+    - mise en place du cluster complet de vSan
+    - test migration du SRV1-DNS, création du SRV2-DNS
+    - reglage de differents probleme de santé de vSan
+    - ajout d'une synchronisation avec les serveurs ntp belges
+    - changement de disposition des serveurs dans le rack
+    - ajout du jour au Carnet    
 
-12/3/24 |
+12/3/24 | 9h20 -
+    - test du rebranchement de la veille
+    - configuration du démarage automatique des vm principale
+    - découverte des services disponible sur vsphere
+    - mise en place de test de redondance (mise en maintenance, déploiement et redeploiement, simulation de panne) VOIR **Mission/VMware/config.txt**
+    - pendant la reccherche d'une séparation du vlan 800 et 10 j'ai indiquer l'id du vlan dans les distributed switch. j'ai plus d'acces a vsphere, ping fonctionne mais impossible d'avoir le webgui. obliger de tout reinstaller
 
 13/3/24 |
 
