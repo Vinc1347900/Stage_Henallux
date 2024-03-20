@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-02-27T11:16:02.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="B7x_W_2yZgVmKvad0ySC" version="23.0.2" type="device">
+<mxfile host="Electron" modified="2024-03-20T18:33:08.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="BKUHSC8YLQsKOKs36_L8" version="22.0.2" type="device">
   <diagram name="Page-1" id="SKt6OCYysjij8mRNMLMj">
-    <mxGraphModel dx="1593" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="1674" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,7 +133,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ecvMS3xEooSk3m5HB3zu-33" value="Data" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
+        <mxCell id="ecvMS3xEooSk3m5HB3zu-33" value="VM" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
           <mxGeometry x="250" y="610" width="50" height="28.999999999999996" as="geometry" />
         </mxCell>
         <mxCell id="ecvMS3xEooSk3m5HB3zu-34" value="&lt;h2&gt;Switch Data&lt;/h2&gt;" style="fontColor=#0066CC;verticalAlign=middle;verticalLabelPosition=top;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;horizontal=1;" parent="1" vertex="1">
@@ -197,7 +197,7 @@
         <mxCell id="ecvMS3xEooSk3m5HB3zu-60" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_switch;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="640" y="700" width="50" height="26.5" as="geometry" />
         </mxCell>
-        <mxCell id="ecvMS3xEooSk3m5HB3zu-61" value="Data" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
+        <mxCell id="ecvMS3xEooSk3m5HB3zu-61" value="VM" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
           <mxGeometry x="610" y="610" width="50" height="28.999999999999996" as="geometry" />
         </mxCell>
         <mxCell id="ecvMS3xEooSk3m5HB3zu-62" value="MGT" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
@@ -258,7 +258,7 @@
         <mxCell id="ecvMS3xEooSk3m5HB3zu-75" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_switch;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="1000" y="700" width="50" height="26.5" as="geometry" />
         </mxCell>
-        <mxCell id="ecvMS3xEooSk3m5HB3zu-76" value="Data" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
+        <mxCell id="ecvMS3xEooSk3m5HB3zu-76" value="VM" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
           <mxGeometry x="970" y="610" width="50" height="28.999999999999996" as="geometry" />
         </mxCell>
         <mxCell id="ecvMS3xEooSk3m5HB3zu-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fillColor=#6d8764;strokeColor=#3A5431;strokeWidth=5;entryX=0.9;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ecvMS3xEooSk3m5HB3zu-77" target="ecvMS3xEooSk3m5HB3zu-112" edge="1">
@@ -325,7 +325,7 @@
         <mxCell id="ecvMS3xEooSk3m5HB3zu-90" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_switch;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="1360" y="700" width="50" height="26.5" as="geometry" />
         </mxCell>
-        <mxCell id="ecvMS3xEooSk3m5HB3zu-91" value="Data" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
+        <mxCell id="ecvMS3xEooSk3m5HB3zu-91" value="VM" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;" parent="1" vertex="1">
           <mxGeometry x="1330" y="610" width="50" height="28.999999999999996" as="geometry" />
         </mxCell>
         <mxCell id="ecvMS3xEooSk3m5HB3zu-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fillColor=#6d8764;strokeColor=#3A5431;strokeWidth=5;entryX=0.9;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ecvMS3xEooSk3m5HB3zu-92" target="ecvMS3xEooSk3m5HB3zu-112" edge="1">
@@ -507,19 +507,19 @@
         <mxCell id="W9_OPN75t4l4xgVbGcML-8" value="vSan" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ethernet_port;" parent="1" vertex="1">
           <mxGeometry x="1190" y="611" width="27" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="iPx74XYa588z2-vhz_Vy-1" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;strokeWidth=5;strokeColor=#FFFF00;" edge="1" parent="1">
+        <mxCell id="iPx74XYa588z2-vhz_Vy-1" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;strokeWidth=5;strokeColor=#FFFF00;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="204.5" as="sourcePoint" />
             <mxPoint x="330" y="204.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iPx74XYa588z2-vhz_Vy-2" value="Vlan Infra Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="iPx74XYa588z2-vhz_Vy-2" value="Vlan Infra Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="351" y="190" width="166.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iPx74XYa588z2-vhz_Vy-4" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.dns_server;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="iPx74XYa588z2-vhz_Vy-4" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.dns_server;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1480" y="360" width="33" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iPx74XYa588z2-vhz_Vy-5" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.dns_server;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="iPx74XYa588z2-vhz_Vy-5" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.dns_server;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1570" y="360" width="33" height="60" as="geometry" />
         </mxCell>
       </root>
