@@ -1,0 +1,25 @@
+'Test Type,Test Description
+0,16K write solo drive test
+'Version
+1.1.0
+'Time Stamp
+2024-03-18 10:40:40:578
+'Access specifications
+'Access specification name,default assignment
+16 KiB; 0% Read; 0% random,0
+'size,% of size,% reads,% random,delay,burst,align,reply
+16384,100,0,0,0,1,0,0,
+'End access specifications
+'Results
+'Target Type,Target Name,Access Specification Name,# Managers,# Workers,# Disks,IOps,Read IOps,Write IOps,MiBps (Binary),Read MiBps (Binary),Write MiBps (Binary),MBps (Decimal),Read MBps (Decimal),Write MBps (Decimal),Transactions per Second,Connections per Second,Average Response Time,Average Read Response Time,Average Write Response Time,Average Transaction Time,Average Connection Time,Maximum Response Time,Maximum Read Response Time,Maximum Write Response Time,Maximum Transaction Time,Maximum Connection Time,Errors,Read Errors,Write Errors,Bytes Read,Bytes Written,Read I/Os,Write I/Os,Connections,Transactions per Connection,Total Raw Read Response Time,Total Raw Write Response Time,Total Raw Transaction Time,Total Raw Connection Time,Maximum Raw Read Response Time,Maximum Raw Write Response Time,Maximum Raw Transaction Time,Maximum Raw Connection Time,Total Raw Run Time,Starting Sector,Maximum Size,Queue Depth,% CPU Utilization,% User Time,% Privileged Time,% DPC Time,% Interrupt Time,Processor Speed,Interrupts per Second,CPU Effectiveness,Packets/Second,Packet Errors,Segments Retransmitted/Second,0 to 50 uS,50 to 100 uS,100 to 200 uS,200 to 500 uS,0.5 to 1 mS,1 to 2 mS,2 to 5 mS,5 to 10 mS,10 to 15 mS,15 to 20 mS,20 to 30 mS,30 to 50 mS,50 to 100 mS,100 to 200 mS,200 to 500 mS,0.5 to 1 S,1 to 2 s,2 to 4.7 s,4.7 to 5 s,5 to 10 s, >= 10 s
+ALL,All,16 KiB; 0% Read; 0% random,1,1,1,2242.384057,0.000000,2242.384057,35.037251,0.000000,35.037251,36.739220,0.000000,36.739220,2242.384057,0.000000,0.445627,0.000000,0.445627,0.445627,0.000000,8.077600,0.000000,8.077600,8.077600,0.000000,0,0,0,0,22044721152,0,1345503,0,-1,,,,,,,,,,0,0,1,26.576336,6.122762,20.454126,0.373030,0.236968,,4967.463673,84.375215,0.184991,0.000000,0.000000,0,0,0,1336317,8732,430,22,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+MANAGER,DESKTOP-B59M5J7,16 KiB; 0% Read; 0% random,,1,1,2242.384057,0.000000,2242.384057,35.037251,0.000000,35.037251,36.739220,0.000000,36.739220,2242.384057,0.000000,0.445627,0.000000,0.445627,0.445627,0.000000,8.077600,0.000000,8.077600,8.077600,0.000000,0,0,0,0,22044721152,0,1345503,0,-1,0,5995920796,5995920796,0,0,80776,80776,0,6000323611,0,0,1,26.576336,6.122762,20.454126,0.373030,0.236968,10000000.000000,4967.463673,84.375215,0.184991,0.000000,0.000000,0,0,0,1336317,8732,430,22,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROCESSOR,CPU 0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.471988,7.142897,23.329643,0.343734,0.281237,10000000.000000,1173.053706,,,,
+PROCESSOR,CPU 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25.605027,5.791397,19.814181,0.354150,0.213532,10000000.000000,1263.314503,,,,
+PROCESSOR,CPU 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.574011,4.632597,15.941966,0.367170,0.294257,10000000.000000,1354.528589,,,,
+PROCESSOR,CPU 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29.654318,6.924157,22.730712,0.427063,0.158847,10000000.000000,1176.566876,,,,
+WORKER,Worker 1,16 KiB; 0% Read; 0% random,,,1,2242.384057,0.000000,2242.384057,35.037251,0.000000,35.037251,36.739220,0.000000,36.739220,2242.384057,0.000000,0.445627,0.000000,0.445627,0.445627,0.000000,8.077600,0.000000,8.077600,8.077600,0.000000,0,0,0,0,22044721152,0,1345503,0,-1,0,5995920796,5995920796,0,0,80776,80776,0,6000323611,0,0,1,,,,,,10000000.000000,,,,,,0,0,0,1336317,8732,430,22,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+DISK,C: "",,,,,2242.384057,0.000000,2242.384057,35.037251,0.000000,35.037251,36.739220,0.000000,36.739220,2242.384057,0.000000,0.445627,0.000000,0.445627,0.445627,0.000000,8.077600,0.000000,8.077600,8.077600,0.000000,0,0,0,0,22044721152,0,1345503,0,-1,0,5995920796,5995920796,0,0,80776,80776,0,6000323611,0,0,1,,,,,,10000000.000000,,,,,,0,0,0,1336317,8732,430,22,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Time Stamp
+2024-03-18 10:50:40:703
+'End Test

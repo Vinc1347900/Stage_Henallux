@@ -62,3 +62,29 @@ sur les s5224f on a les vlan 230 pour le management et 800 pour le vsan. il rest
     test de couper de maniere dure l'hote 1, il faut attendre quelques 10ène de seconde pour que les vm presentes soient transferer vers un autre host (on perd la connection a la vm avant qu'elle soit relancer sur l'autre hote)
     lors de la remise en route de l'hote 1, celui-çi est reconnecter au cluster et une remise en place de vsan est lancer. du début du test jusqu'a la reconnection de l'hote 1 il faut compter 5 min. tandis que la remise en marche des vm est dans la minute apres la perte de l'hote.
     tout ces options de mise a disposition et maintient de la disponibilité est assurer avec vmware HA et DRS
+
+6ème jour
+    vsphere et vsan est mort, besoin de retirer via le cli le distributed switch et remettre les liens montant sur le vswitch de vsan sur tout les esxi
+    reinstallation de vsphere et du SRV-DNS. gros probleme apres l'installation de vsphere pour la configuration du vsan :
+        - reseau non le meme sur les serveur. besoins de créer un vmkernel sur chaque serveur
+        - gros probleme d'unification de la méthode de stockage (il aura fallu aller dans la méthode de stockage de vsphere serveur pour corriger l'erreur)
+    installation et config faite, les tests que j'avais fait avant sont bon il manque plusqu'a retirer un disque dur a chaud et voir si c'est bon.
+
+7ème jour
+    le fait de mettre les serveur en mode de maintenance n'est pas sufisant dans le fonctionnement de vsan, il faut d'abord regarder si les vm ne fesant pas partie de l'environment vsphere sont étiente.
+    quand c'est bon il faut regarder dans life vsan si il y a pas d'erreur ou de resynchronisation en cours ou a faire. si tout est au vert, un ckick droit sur le cluster vsan, dans le fond il y a vsan (en menu déroulant) on selectione shutdown cluster
+    le reste est géré par vsphere, donc de la il faut simplement se connecter sur le serveur qui contient la vm de sphere et vérifier que tout se passe bien. une fois la perte de connectivité avec celui-ci c'est que tout c'est bien etein.
+    Quand on veut rallumer le tout, on allume chaque esxi et on laisse tout démarrer. (il faut vérifier car tout semble bien se lancer mais si il y a pas de serveur dns, j'ai l'impression que le serveur vcenter ne veut pas se lancer. en plus quand on veut rallumer le cluster il ne sait pas se connecter au esxi "FQDN en cause ?"). quand l'acces au vcenter est de retour on refait un clique droit sur le cluster, vsan et rallumer le cluster. le reste est gere par vsphere.
+
+
+8ème jour
+    test du rallumage du cluster vsan, tout c'est bien passer, les vm sont bien remonter mais il reste a allumer a la main la vm dns.
+    recherche de documentation sur IO Meter, test a avec plussieur profil (1-2-4 workers). on retrouve plussieur type de taille de transmition passant de 512B a 256Kb. on retrouve aussi le fait de pouvoir faire de la lecture / écriture de manière séquentiel ou aléatoire.
+    sans entrée dans toutes les données connecter, on remarque que la rapiditée de transfert en lecture est très rapide tandis que la partie écriture est décroissante en fonction de la taille. Voir 'Export résultat' pour en faire un graph avec les données enregistrer.
+    On remarque aussi que la deuxieme VM de test a été transferer vers un autre host. mais a 5 il y a pas encore d'équilibrage de charge.
+    test d'avoir une charge de vm équilibré entre les 4 hotes. mise en maintenance de deux host pour concentrer la masse de travaille sur deux host. on remarque que l'on a une baise du taux d'IO sur les vm qui sont en cour de transfert. mais une forte augmentation du taux de transfert en Mb en lecture.
+    on passe de ~6500 I/Os a moins de 1700 I/Os mais on passe de ~340Mb/s à 850Mb/s sur la lecture de disque. la perte de puissance ne se fait resentire moins de 10 seconde le tant que un autre hote reprenne la main sur la VM
+    
+
+test de retirer un disque a chaud, vsan détecte la perte et prevois directement une reconstruction d'objet. dans ce cas je lance la reconstruction manuellement. aucun perte a déplorer, on a pas de soucis au niveau des vm
+la remise du disque lance une synchronisation du cluster mais rien de plus.

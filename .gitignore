@@ -7,3 +7,4 @@ ISO/VMware-ESXi-7.0.3-22348816-HPE-703.0.0.11.5.0.6-Oct2023.iso
 *.vmdk
 *.nvram
 *.ovf
+*.mp4

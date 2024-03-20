@@ -1,0 +1,14 @@
+'Test Type,Test Description
+0,64k write dual drive test
+'Version
+1.1.0
+'Time Stamp
+2024-03-18 12:21:06:651
+'Access specifications
+'Access specification name,default assignment
+64 KiB; 0% Read; 0% random,0
+'size,% of size,% reads,% random,delay,burst,align,reply
+65536,100,0,0,0,1,0,0,
+'End access specifications
+'Results
+'End Test
