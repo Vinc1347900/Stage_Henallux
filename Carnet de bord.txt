@@ -51,6 +51,9 @@
     - recherche d'info sur HPE iLo (même principe que iDRAC mais chez HP)
     - ajout du jour au Carnet
 
+##########################################################################
+##########################################################################
+
 19/2/24 | 9h10 - 17h27
     - début des recherches sur l'installation de VMware vSphere ESXI sur le serveur HP
     - ajout de documentation sur l'installation d'un ESXI sur hp
@@ -102,6 +105,10 @@
     - reprise de la lecture des documents préparer le 20/2 (reprendre a la page 93)
     - ajout du jour au Carnet
 
+
+##########################################################################
+##########################################################################
+
 26/2/24 | 9h15 - 17h25
     - élaboration du plans logique de la mission (sujet du stage)
     - élaboration du plans d'adressage IP de la mission (v1)
@@ -141,6 +148,9 @@
 
 1/3/24 | Maladie
 
+##########################################################################
+##########################################################################
+
 4/3/24 | 9h15 - 17h20
     - envois mail, proposition du titre et synopsys
     - envois mail, visite du stage
@@ -157,9 +167,8 @@
     - mise en forme du TFE
     - modification du Gantt
     - reflexion sur comment commencer le TFE
-    -ajout du jour au Carnet
+    - ajout du jour au Carnet
     
-
 6/3/24 | 9h10 - 17h19
     - écriture du TFE
     - reception du matériel, prise de photo (un peu de triche, le cable management et déjà fait)
@@ -167,7 +176,7 @@
         - configuration du switch de management (manque d'info a rajouter !!)
         - configuration des deux switch data (vsan utilise les mêmes cables que le data ?)
         - début d'installationdu esxi mais fin de journée reprise demain
-    -ajout du jour au Carnet
+    - ajout du jour au Carnet
 
 7/3/24 | 9h20 - 17h24
     - reprise a 0 pour les switches, priorité au s3124p pour la gestion des autre switch et les serveurs vxRAil
@@ -186,6 +195,9 @@
     - début de configuration de vsan mais besoin de suprimer celui qui est sur le serveur 2. et besoins de config les deux switch data
     - ajout du jour au Carnet
 
+##########################################################################
+##########################################################################
+
 11/3/24 | 9h10 - 17h20
     - reprise de configurationd des switchs mise en NBL des int data et vsan
     - mise en place du cluster complet de vSan
@@ -195,28 +207,59 @@
     - changement de disposition des serveurs dans le rack
     - ajout du jour au Carnet    
 
-12/3/24 | 9h20 -
+12/3/24 | 9h20 - 17h25
     - test du rebranchement de la veille
     - configuration du démarage automatique des vm principale
     - découverte des services disponible sur vsphere
     - mise en place de test de redondance (mise en maintenance, déploiement et redeploiement, simulation de panne) VOIR **Mission/VMware/config.txt**
     - pendant la reccherche d'une séparation du vlan 800 et 10 j'ai indiquer l'id du vlan dans les distributed switch. j'ai plus d'acces a vsphere, ping fonctionne mais impossible d'avoir le webgui. obliger de tout reinstaller
 
-13/3/24 |
+13/3/24 | day off
 
-14/3/24 |
+14/3/24 | 9h15 - 17h30
+    - resolution du probleme de la veille, besoin de nétoyer les esxi du nouveau DVS et remise des liens montant sur le VDS de vsan.
+    - reinstallation du server dns et de vsphere/vsan (le reste de la matinée et toute l'aprem)
+    - ajout du jour au Carnet
 
-15/3/24 |
+15/3/24 | 9h10 - 17h25
+    - vsan encore casser, besoin de reinstaller tout mais test de seulement reinstaller vsphere et se connecter au vsan cluster (reinstallation complete en supprimant les disque de l'ancien vsan)
+    - recherche approfondie sur le fonctionnement de coupure d'un cluster. (besoin de shutdown toutes VM qui ne font pas partie de vsphere puis faire un click droit sur le cluster et dans vSan, arreter le cluster) tout le reste est gérer pa vsphere
+    - demande d'info sur de possible test a réaliser sur la résistance du cluster
+    - test des solutions trouvé pour proprement éteindre le cluster (à l'air bon)
+    - save et export des serveurs dns
+    - ajout du jour au Carnet
 
-18/3/24 |
+##########################################################################
+##########################################################################
 
-19/3/24 |
+18/3/24 | 9h15 - 17h20
+    - vérification de la procédure d'arret/démarage du cluster
+    - recherche documentation sur IO Meter (documentation ajouter dans le dossier "Documentations")
+    - préparation pour des tests sous IO Meter 'logiciel de test disques, réseau et CPU'
+    - lancement des tests disques de 16-32-64-256Kb en lecture et écriture en solo et dual worker
+    - par curiosité de la résistance de travail du cluster, j'ai lancer 5 vm avec 4 worker (2x256Kb en écriture, 64Kb en lecture et un en all in one)
+    - création d'un disque partager entre les vm test pour récuperer les resultats
+    - ajout du jour au Carnet
 
-20/3/24 |
+19/3/24 | 9h10 -
+    - procédure d'arret/démarage du cluster aquis
+    - téléchargement du disque partagé la veille et installation de celui-ci sur une vm virtualbox
+    - recherche de récupération des graphs vsphere durant les tests de la veille
+    - Rendez-vous avec Mr Peten sur le lieu de stage
+    - test de redondance de stockage vsan, retrait d'un disque d'un serveur
+    - écriture du TFE
+    - ajout du jour au Carnet
 
-21/3/24 |
+    
+20/3/24 | day off
 
+21/3/24 | 
+    refaire l'installation d'un os pour avoir des screen
+    refaire l'install de vsphere pour avoir l'installation automatiser
 22/3/24 |
+
+##########################################################################
+##########################################################################
 
 25/3/24 |
 
@@ -227,3 +270,5 @@
 28/3/24 |
 
 29/3/24 |
+
+01/04/24 |

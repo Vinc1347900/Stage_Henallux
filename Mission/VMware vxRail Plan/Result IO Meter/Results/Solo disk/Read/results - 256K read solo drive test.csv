@@ -1,0 +1,25 @@
+'Test Type,Test Description
+0,256K solo drive test
+'Version
+1.1.0
+'Time Stamp
+2024-03-18 10:16:38:391
+'Access specifications
+'Access specification name,default assignment
+256 KiB; 100% Read; 0% random,0
+'size,% of size,% reads,% random,delay,burst,align,reply
+262144,100,100,0,0,1,0,0,
+'End access specifications
+'Results
+'Target Type,Target Name,Access Specification Name,# Managers,# Workers,# Disks,IOps,Read IOps,Write IOps,MiBps (Binary),Read MiBps (Binary),Write MiBps (Binary),MBps (Decimal),Read MBps (Decimal),Write MBps (Decimal),Transactions per Second,Connections per Second,Average Response Time,Average Read Response Time,Average Write Response Time,Average Transaction Time,Average Connection Time,Maximum Response Time,Maximum Read Response Time,Maximum Write Response Time,Maximum Transaction Time,Maximum Connection Time,Errors,Read Errors,Write Errors,Bytes Read,Bytes Written,Read I/Os,Write I/Os,Connections,Transactions per Connection,Total Raw Read Response Time,Total Raw Write Response Time,Total Raw Transaction Time,Total Raw Connection Time,Maximum Raw Read Response Time,Maximum Raw Write Response Time,Maximum Raw Transaction Time,Maximum Raw Connection Time,Total Raw Run Time,Starting Sector,Maximum Size,Queue Depth,% CPU Utilization,% User Time,% Privileged Time,% DPC Time,% Interrupt Time,Processor Speed,Interrupts per Second,CPU Effectiveness,Packets/Second,Packet Errors,Segments Retransmitted/Second,0 to 50 uS,50 to 100 uS,100 to 200 uS,200 to 500 uS,0.5 to 1 mS,1 to 2 mS,2 to 5 mS,5 to 10 mS,10 to 15 mS,15 to 20 mS,20 to 30 mS,30 to 50 mS,50 to 100 mS,100 to 200 mS,200 to 500 mS,0.5 to 1 S,1 to 2 s,2 to 4.7 s,4.7 to 5 s,5 to 10 s, >= 10 s
+ALL,All,256 KiB; 100% Read; 0% random,1,1,1,3111.417712,3111.417712,0.000000,777.854428,777.854428,0.000000,815.639485,815.639485,0.000000,3111.417712,0.000000,0.321042,0.321042,0.000000,0.321042,0.000000,120.022300,120.022300,0.000000,120.022300,0.000000,0,0,0,489393487872,0,1866888,0,0,-1,,,,,,,,,,0,0,1,27.637625,6.046148,21.592829,0.651685,0.341793,,6892.240377,112.579056,0.006667,0.000000,0.000000,0,0,0,1866407,274,72,12,3,2,1,5,8,21,83,0,0,0,0,0,0,0
+MANAGER,DESKTOP-B59M5J7,256 KiB; 100% Read; 0% random,,1,1,3111.417712,3111.417712,0.000000,777.854428,777.854428,0.000000,815.639485,815.639485,0.000000,3111.417712,0.000000,0.321042,0.321042,0.000000,0.321042,0.000000,120.022300,120.022300,0.000000,120.022300,0.000000,0,0,0,489393487872,0,1866888,0,0,-1,5993491304,0,5993491304,0,1200223,0,1200223,0,6000120115,0,0,1,27.637625,6.046148,21.592829,0.651685,0.341793,10000000.000000,6892.240377,112.579056,0.006667,0.000000,0.000000,0,0,0,1866407,274,72,12,3,2,1,5,8,21,83,0,0,0,0,0,0,0
+PROCESSOR,CPU 0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.125862,6.898351,24.228863,0.632805,0.281246,10000000.000000,1639.911135,,,,
+PROCESSOR,CPU 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26.607690,5.835864,20.773177,0.651034,0.322913,10000000.000000,1761.417947,,,,
+PROCESSOR,CPU 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19.594757,3.942659,15.653450,0.726553,0.507806,10000000.000000,1916.554338,,,,
+PROCESSOR,CPU 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.222190,7.507719,25.715824,0.596347,0.255205,10000000.000000,1574.356956,,,,
+WORKER,Worker 1,256 KiB; 100% Read; 0% random,,,1,3111.417712,3111.417712,0.000000,777.854428,777.854428,0.000000,815.639485,815.639485,0.000000,3111.417712,0.000000,0.321042,0.321042,0.000000,0.321042,0.000000,120.022300,120.022300,0.000000,120.022300,0.000000,0,0,0,489393487872,0,1866888,0,0,-1,5993491304,0,5993491304,0,1200223,0,1200223,0,6000120115,0,0,1,,,,,,10000000.000000,,,,,,0,0,0,1866407,274,72,12,3,2,1,5,8,21,83,0,0,0,0,0,0,0
+DISK,C: "",,,,,3111.417712,3111.417712,0.000000,777.854428,777.854428,0.000000,815.639485,815.639485,0.000000,3111.417712,0.000000,0.321042,0.321042,0.000000,0.321042,0.000000,120.022300,120.022300,0.000000,120.022300,0.000000,0,0,0,489393487872,0,1866888,0,0,-1,5993491304,0,5993491304,0,1200223,0,1200223,0,6000120115,0,0,1,,,,,,10000000.000000,,,,,,0,0,0,1866407,274,72,12,3,2,1,5,8,21,83,0,0,0,0,0,0,0
+'Time Stamp
+2024-03-18 10:26:38:469
+'End Test

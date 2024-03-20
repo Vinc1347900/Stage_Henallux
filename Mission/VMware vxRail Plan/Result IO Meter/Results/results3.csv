@@ -1,0 +1,100 @@
+'Test Type,Test Description
+0,test 4 workers
+'Version
+1.1.0
+'Time Stamp
+2024-03-18 13:47:34:536
+'Access specifications
+'Access specification name,default assignment
+256 KiB; 100% Read; 0% random,0
+'size,% of size,% reads,% random,delay,burst,align,reply
+262144,100,100,0,0,1,0,0,
+'End access specifications
+'Results
+'Target Type,Target Name,Access Specification Name,# Managers,# Workers,# Disks,IOps,Read IOps,Write IOps,MiBps (Binary),Read MiBps (Binary),Write MiBps (Binary),MBps (Decimal),Read MBps (Decimal),Write MBps (Decimal),Transactions per Second,Connections per Second,Average Response Time,Average Read Response Time,Average Write Response Time,Average Transaction Time,Average Connection Time,Maximum Response Time,Maximum Read Response Time,Maximum Write Response Time,Maximum Transaction Time,Maximum Connection Time,Errors,Read Errors,Write Errors,Bytes Read,Bytes Written,Read I/Os,Write I/Os,Connections,Transactions per Connection,Total Raw Read Response Time,Total Raw Write Response Time,Total Raw Transaction Time,Total Raw Connection Time,Maximum Raw Read Response Time,Maximum Raw Write Response Time,Maximum Raw Transaction Time,Maximum Raw Connection Time,Total Raw Run Time,Starting Sector,Maximum Size,Queue Depth,% CPU Utilization,% User Time,% Privileged Time,% DPC Time,% Interrupt Time,Processor Speed,Interrupts per Second,CPU Effectiveness,Packets/Second,Packet Errors,Segments Retransmitted/Second,0 to 50 uS,50 to 100 uS,100 to 200 uS,200 to 500 uS,0.5 to 1 mS,1 to 2 mS,2 to 5 mS,5 to 10 mS,10 to 15 mS,15 to 20 mS,20 to 30 mS,30 to 50 mS,50 to 100 mS,100 to 200 mS,200 to 500 mS,0.5 to 1 S,1 to 2 s,2 to 4.7 s,4.7 to 5 s,5 to 10 s, >= 10 s
+ALL,All,256 KiB; 100% Read; 0% random,1,1,1,2822.068474,2822.068474,0.000000,705.517119,705.517119,0.000000,739.788318,739.788318,0.000000,2822.068474,0.000000,0.353898,0.353898,0.000000,0.353898,0.000000,109.357900,109.357900,0.000000,109.357900,0.000000,0,0,0,443872182272,0,1693238,0,0,-1,,,,,,,,,,0,0,1,2.516493,0.189455,2.328151,0.578131,0.308597,,9965.114263,1121.429118,0.620007,0.000000,0.000000,0,0,0,1671611,21418,151,43,1,0,0,0,3,4,7,0,0,0,0,0,0,0
+MANAGER,DESKTOP-B59M5J7,256 KiB; 100% Read; 0% random,,1,1,2822.068474,2822.068474,0.000000,705.517119,705.517119,0.000000,739.788318,739.788318,0.000000,2822.068474,0.000000,0.353898,0.353898,0.000000,0.353898,0.000000,109.357900,109.357900,0.000000,109.357900,0.000000,0,0,0,443872182272,0,1693238,0,0,-1,5992335037,0,5992335037,0,1093579,0,1093579,0,5999989070,0,0,1,2.516493,0.189455,2.328151,0.578131,0.308597,10000000.000000,9965.114263,1121.429118,0.620007,0.000000,0.000000,0,0,0,1671611,21418,151,43,1,0,0,0,3,4,7,0,0,0,0,0,0,0
+PROCESSOR,CPU 0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.488498,0.231773,2.257838,0.539069,0.359379,10000000.000000,2514.331322,,,,
+PROCESSOR,CPU 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.480685,0.182294,2.299505,0.565110,0.286462,10000000.000000,2549.863385,,,,
+PROCESSOR,CPU 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.454643,0.148439,2.307317,0.632820,0.260420,10000000.000000,2458.134030,,,,
+PROCESSOR,CPU 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.642145,0.195315,2.447944,0.575527,0.328129,10000000.000000,2442.785526,,,,
+WORKER,Worker 1,256 KiB; 100% Read; 0% random,,,1,2822.068474,2822.068474,0.000000,705.517119,705.517119,0.000000,739.788318,739.788318,0.000000,2822.068474,0.000000,0.353898,0.353898,0.000000,0.353898,0.000000,109.357900,109.357900,0.000000,109.357900,0.000000,0,0,0,443872182272,0,1693238,0,0,-1,5992335037,0,5992335037,0,1093579,0,1093579,0,5999989070,0,0,1,,,,,,10000000.000000,,,,,,0,0,0,1671611,21418,151,43,1,0,0,0,3,4,7,0,0,0,0,0,0,0
+DISK,1: "VMware Virtual disk 2.0",,,,,2822.068474,2822.068474,0.000000,705.517119,705.517119,0.000000,739.788318,739.788318,0.000000,2822.068474,0.000000,0.353898,0.353898,0.000000,0.353898,0.000000,109.357900,109.357900,0.000000,109.357900,0.000000,0,0,0,443872182272,0,1693238,0,0,-1,5992335037,0,5992335037,0,1093579,0,1093579,0,5999989070,0,0,1,,,,,,10000000.000000,,,,,,0,0,0,1671611,21418,151,43,1,0,0,0,3,4,7,0,0,0,0,0,0,0
+'Time Stamp
+2024-03-18 13:57:34:634
+'End Test
+'Test Type,Test Description
+0,test 4 workers
+'Version
+1.1.0
+'Time Stamp
+2024-03-18 14:02:49:037
+'Access specifications
+'Access specification name,default assignment
+256 KiB; 100% Read; 0% random,0
+'size,% of size,% reads,% random,delay,burst,align,reply
+262144,100,100,0,0,1,0,0,
+'End access specifications
+'Results
+'Target Type,Target Name,Access Specification Name,# Managers,# Workers,# Disks,IOps,Read IOps,Write IOps,MiBps (Binary),Read MiBps (Binary),Write MiBps (Binary),MBps (Decimal),Read MBps (Decimal),Write MBps (Decimal),Transactions per Second,Connections per Second,Average Response Time,Average Read Response Time,Average Write Response Time,Average Transaction Time,Average Connection Time,Maximum Response Time,Maximum Read Response Time,Maximum Write Response Time,Maximum Transaction Time,Maximum Connection Time,Errors,Read Errors,Write Errors,Bytes Read,Bytes Written,Read I/Os,Write I/Os,Connections,Transactions per Connection,Total Raw Read Response Time,Total Raw Write Response Time,Total Raw Transaction Time,Total Raw Connection Time,Maximum Raw Read Response Time,Maximum Raw Write Response Time,Maximum Raw Transaction Time,Maximum Raw Connection Time,Total Raw Run Time,Starting Sector,Maximum Size,Queue Depth,% CPU Utilization,% User Time,% Privileged Time,% DPC Time,% Interrupt Time,Processor Speed,Interrupts per Second,CPU Effectiveness,Packets/Second,Packet Errors,Segments Retransmitted/Second,0 to 50 uS,50 to 100 uS,100 to 200 uS,200 to 500 uS,0.5 to 1 mS,1 to 2 mS,2 to 5 mS,5 to 10 mS,10 to 15 mS,15 to 20 mS,20 to 30 mS,30 to 50 mS,50 to 100 mS,100 to 200 mS,200 to 500 mS,0.5 to 1 S,1 to 2 s,2 to 4.7 s,4.7 to 5 s,5 to 10 s, >= 10 s
+ALL,All,256 KiB; 100% Read; 0% random,1,1,1,6968.838897,6968.838897,0.000000,1742.209724,1742.209724,0.000000,1826.839304,1826.839304,0.000000,6968.838897,0.000000,1.147578,1.147578,0.000000,1.147578,0.000000,12.382200,12.382200,0.000000,12.382200,0.000000,0,0,0,1096110047232,0,4181328,0,0,-1,,,,,,,,,,0,0,8,4.469671,0.342449,4.127621,1.217453,0.666018,,16903.904116,1559.139151,0.770003,0.000000,0.000000,0,0,0,408412,1949143,1061917,761820,12,24,0,0,0,0,0,0,0,0,0,0,0,0
+MANAGER,DESKTOP-B59M5J7,256 KiB; 100% Read; 0% random,,1,1,6968.838897,6968.838897,0.000000,1742.209724,1742.209724,0.000000,1826.839304,1826.839304,0.000000,6968.838897,0.000000,1.147578,1.147578,0.000000,1.147578,0.000000,12.382200,12.382200,0.000000,12.382200,0.000000,0,0,0,1096110047232,0,4181328,0,0,-1,47983995463,0,47983995463,0,123822,0,123822,0,6000035389,0,0,8,4.469671,0.342449,4.127621,1.217453,0.666018,10000000.000000,16903.904116,1559.139151,0.770003,0.000000,0.000000,0,0,0,408412,1949143,1061917,761820,12,24,0,0,0,0,0,0,0,0,0,0,0,0
+PROCESSOR,CPU 0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.377223,0.328126,4.049495,1.255213,0.645836,10000000.000000,4187.873377,,,,
+PROCESSOR,CPU 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.582953,0.380210,4.203142,1.210942,0.669274,10000000.000000,4180.633348,,,,
+PROCESSOR,CPU 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.411077,0.307293,4.104183,1.169275,0.653648,10000000.000000,4238.670246,,,,
+PROCESSOR,CPU 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.507431,0.354168,4.153662,1.234380,0.695315,10000000.000000,4296.727145,,,,
+WORKER,Worker 1,256 KiB; 100% Read; 0% random,,,1,6968.838897,6968.838897,0.000000,1742.209724,1742.209724,0.000000,1826.839304,1826.839304,0.000000,6968.838897,0.000000,1.147578,1.147578,0.000000,1.147578,0.000000,12.382200,12.382200,0.000000,12.382200,0.000000,0,0,0,1096110047232,0,4181328,0,0,-1,47983995463,0,47983995463,0,123822,0,123822,0,6000035389,0,0,8,,,,,,10000000.000000,,,,,,0,0,0,408412,1949143,1061917,761820,12,24,0,0,0,0,0,0,0,0,0,0,0,0
+DISK,1: "VMware Virtual disk 2.0",,,,,6968.838897,6968.838897,0.000000,1742.209724,1742.209724,0.000000,1826.839304,1826.839304,0.000000,6968.838897,0.000000,1.147578,1.147578,0.000000,1.147578,0.000000,12.382200,12.382200,0.000000,12.382200,0.000000,0,0,0,1096110047232,0,4181328,0,0,-1,47983995463,0,47983995463,0,123822,0,123822,0,6000035389,0,0,8,,,,,,10000000.000000,,,,,,0,0,0,408412,1949143,1061917,761820,12,24,0,0,0,0,0,0,0,0,0,0,0,0
+'Time Stamp
+2024-03-18 14:12:49:152
+'End Test
+'Test Type,Test Description
+0,test 4 workers
+'Version
+1.1.0
+'Time Stamp
+2024-03-18 14:17:24:801
+'Access specifications
+'Access specification name,default assignment
+256 KiB; 100% Read; 0% random,0
+'size,% of size,% reads,% random,delay,burst,align,reply
+262144,100,100,0,0,1,0,0,
+'End access specifications
+'Results
+'Target Type,Target Name,Access Specification Name,# Managers,# Workers,# Disks,IOps,Read IOps,Write IOps,MiBps (Binary),Read MiBps (Binary),Write MiBps (Binary),MBps (Decimal),Read MBps (Decimal),Write MBps (Decimal),Transactions per Second,Connections per Second,Average Response Time,Average Read Response Time,Average Write Response Time,Average Transaction Time,Average Connection Time,Maximum Response Time,Maximum Read Response Time,Maximum Write Response Time,Maximum Transaction Time,Maximum Connection Time,Errors,Read Errors,Write Errors,Bytes Read,Bytes Written,Read I/Os,Write I/Os,Connections,Transactions per Connection,Total Raw Read Response Time,Total Raw Write Response Time,Total Raw Transaction Time,Total Raw Connection Time,Maximum Raw Read Response Time,Maximum Raw Write Response Time,Maximum Raw Transaction Time,Maximum Raw Connection Time,Total Raw Run Time,Starting Sector,Maximum Size,Queue Depth,% CPU Utilization,% User Time,% Privileged Time,% DPC Time,% Interrupt Time,Processor Speed,Interrupts per Second,CPU Effectiveness,Packets/Second,Packet Errors,Segments Retransmitted/Second,0 to 50 uS,50 to 100 uS,100 to 200 uS,200 to 500 uS,0.5 to 1 mS,1 to 2 mS,2 to 5 mS,5 to 10 mS,10 to 15 mS,15 to 20 mS,20 to 30 mS,30 to 50 mS,50 to 100 mS,100 to 200 mS,200 to 500 mS,0.5 to 1 S,1 to 2 s,2 to 4.7 s,4.7 to 5 s,5 to 10 s, >= 10 s
+ALL,All,256 KiB; 100% Read; 0% random,1,1,1,9345.449688,9345.449688,0.000000,2336.362422,2336.362422,0.000000,2449.853563,2449.853563,0.000000,9345.449688,0.000000,0.855738,0.855738,0.000000,0.855738,0.000000,268.548400,268.548400,0.000000,268.548400,0.000000,0,0,0,978364661760,0,3732165,0,0,-1,,,,,,,,,,0,0,8,5.120625,0.367784,4.750865,1.410489,0.832404,,21605.069533,1825.060489,0.846372,0.000000,0.000000,0,0,0,323537,2631150,679201,97967,219,62,5,8,8,0,3,5,0,0,0,0,0,0
+MANAGER,DESKTOP-B59M5J7,256 KiB; 100% Read; 0% random,,1,1,9345.449688,9345.449688,0.000000,2336.362422,2336.362422,0.000000,2449.853563,2449.853563,0.000000,9345.449688,0.000000,0.855738,0.855738,0.000000,0.855738,0.000000,268.548400,268.548400,0.000000,268.548400,0.000000,0,0,0,978364661760,0,3732165,0,0,-1,31937544552,0,31937544552,0,2685484,0,2685484,0,3993563846,0,0,8,5.120625,0.367784,4.750865,1.410489,0.832404,10000000.000000,21605.069533,1825.060489,0.846372,0.000000,0.000000,0,0,0,323537,2631150,679201,97967,219,62,5,8,8,0,3,5,0,0,0,0,0,0
+PROCESSOR,CPU 0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.291801,0.399084,4.890740,1.412446,0.895984,10000000.000000,5431.173358,,,,
+PROCESSOR,CPU 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.139209,0.371696,4.765537,1.385058,0.837295,10000000.000000,5280.203652,,,,
+PROCESSOR,CPU 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.806639,0.336483,4.468180,1.306806,0.755130,10000000.000000,5441.167056,,,,
+PROCESSOR,CPU 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.244849,0.363871,4.879002,1.537649,0.841207,10000000.000000,5452.525467,,,,
+WORKER,Worker 1,256 KiB; 100% Read; 0% random,,,1,9345.449688,9345.449688,0.000000,2336.362422,2336.362422,0.000000,2449.853563,2449.853563,0.000000,9345.449688,0.000000,0.855738,0.855738,0.000000,0.855738,0.000000,268.548400,268.548400,0.000000,268.548400,0.000000,0,0,0,978364661760,0,3732165,0,0,-1,31937544552,0,31937544552,0,2685484,0,2685484,0,3993563846,0,0,8,,,,,,10000000.000000,,,,,,0,0,0,323537,2631150,679201,97967,219,62,5,8,8,0,3,5,0,0,0,0,0,0
+DISK,1: "VMware Virtual disk 2.0",,,,,9345.449688,9345.449688,0.000000,2336.362422,2336.362422,0.000000,2449.853563,2449.853563,0.000000,9345.449688,0.000000,0.855738,0.855738,0.000000,0.855738,0.000000,268.548400,268.548400,0.000000,268.548400,0.000000,0,0,0,978364661760,0,3732165,0,0,-1,31937544552,0,31937544552,0,2685484,0,2685484,0,3993563846,0,0,8,,,,,,10000000.000000,,,,,,0,0,0,323537,2631150,679201,97967,219,62,5,8,8,0,3,5,0,0,0,0,0,0
+'Time Stamp
+2024-03-18 14:24:04:251
+'End Test
+'Test Type,Test Description
+0,test 4 workers
+'Version
+1.1.0
+'Time Stamp
+2024-03-18 14:25:24:722
+'Access specifications
+'Access specification name,default assignment
+256 KiB; 100% Read; 0% random,0
+'size,% of size,% reads,% random,delay,burst,align,reply
+262144,100,100,0,0,1,0,0,
+'End access specifications
+'Results
+'Target Type,Target Name,Access Specification Name,# Managers,# Workers,# Disks,IOps,Read IOps,Write IOps,MiBps (Binary),Read MiBps (Binary),Write MiBps (Binary),MBps (Decimal),Read MBps (Decimal),Write MBps (Decimal),Transactions per Second,Connections per Second,Average Response Time,Average Read Response Time,Average Write Response Time,Average Transaction Time,Average Connection Time,Maximum Response Time,Maximum Read Response Time,Maximum Write Response Time,Maximum Transaction Time,Maximum Connection Time,Errors,Read Errors,Write Errors,Bytes Read,Bytes Written,Read I/Os,Write I/Os,Connections,Transactions per Connection,Total Raw Read Response Time,Total Raw Write Response Time,Total Raw Transaction Time,Total Raw Connection Time,Maximum Raw Read Response Time,Maximum Raw Write Response Time,Maximum Raw Transaction Time,Maximum Raw Connection Time,Total Raw Run Time,Starting Sector,Maximum Size,Queue Depth,% CPU Utilization,% User Time,% Privileged Time,% DPC Time,% Interrupt Time,Processor Speed,Interrupts per Second,CPU Effectiveness,Packets/Second,Packet Errors,Segments Retransmitted/Second,0 to 50 uS,50 to 100 uS,100 to 200 uS,200 to 500 uS,0.5 to 1 mS,1 to 2 mS,2 to 5 mS,5 to 10 mS,10 to 15 mS,15 to 20 mS,20 to 30 mS,30 to 50 mS,50 to 100 mS,100 to 200 mS,200 to 500 mS,0.5 to 1 S,1 to 2 s,2 to 4.7 s,4.7 to 5 s,5 to 10 s, >= 10 s
+ALL,All,256 KiB; 100% Read; 0% random,1,1,1,2994.227108,2994.227108,0.000000,748.556777,748.556777,0.000000,784.918671,784.918671,0.000000,2994.227108,0.000000,2.671234,2.671234,0.000000,2.671234,0.000000,508.496100,508.496100,0.000000,508.496100,0.000000,0,0,0,470970269696,0,1796609,0,0,-1,,,,,,,,,,0,0,8,2.710722,0.278645,2.431630,0.690101,0.393878,,8057.573934,1104.586597,0.883329,0.000000,0.000000,0,0,0,168158,275514,563787,532720,224781,30892,228,222,160,81,35,30,1,0,0,0,0,0
+MANAGER,DESKTOP-B59M5J7,256 KiB; 100% Read; 0% random,,1,1,2994.227108,2994.227108,0.000000,748.556777,748.556777,0.000000,784.918671,784.918671,0.000000,2994.227108,0.000000,2.671234,2.671234,0.000000,2.671234,0.000000,508.496100,508.496100,0.000000,508.496100,0.000000,0,0,0,470970269696,0,1796609,0,0,-1,47991630441,0,47991630441,0,5084961,0,5084961,0,6000242919,0,0,8,2.710722,0.278645,2.431630,0.690101,0.393878,10000000.000000,8057.573934,1104.586597,0.883329,0.000000,0.000000,0,0,0,168158,275514,563787,532720,224781,30892,228,222,160,81,35,30,1,0,0,0,0,0
+PROCESSOR,CPU 0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.851997,0.338540,2.513010,0.664060,0.385415,10000000.000000,2009.022674,,,,
+PROCESSOR,CPU 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.846789,0.302082,2.544259,0.776038,0.403644,10000000.000000,2048.682497,,,,
+PROCESSOR,CPU 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.648873,0.239582,2.408843,0.716143,0.354165,10000000.000000,1965.569535,,,,
+PROCESSOR,CPU 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.495228,0.234374,2.260407,0.604164,0.432290,10000000.000000,2034.299228,,,,
+WORKER,Worker 1,256 KiB; 100% Read; 0% random,,,1,2994.227108,2994.227108,0.000000,748.556777,748.556777,0.000000,784.918671,784.918671,0.000000,2994.227108,0.000000,2.671234,2.671234,0.000000,2.671234,0.000000,508.496100,508.496100,0.000000,508.496100,0.000000,0,0,0,470970269696,0,1796609,0,0,-1,47991630441,0,47991630441,0,5084961,0,5084961,0,6000242919,0,0,8,,,,,,10000000.000000,,,,,,0,0,0,168158,275514,563787,532720,224781,30892,228,222,160,81,35,30,1,0,0,0,0,0
+DISK,1: "VMware Virtual disk 2.0",,,,,2994.227108,2994.227108,0.000000,748.556777,748.556777,0.000000,784.918671,784.918671,0.000000,2994.227108,0.000000,2.671234,2.671234,0.000000,2.671234,0.000000,508.496100,508.496100,0.000000,508.496100,0.000000,0,0,0,470970269696,0,1796609,0,0,-1,47991630441,0,47991630441,0,5084961,0,5084961,0,6000242919,0,0,8,,,,,,10000000.000000,,,,,,0,0,0,168158,275514,563787,532720,224781,30892,228,222,160,81,35,30,1,0,0,0,0,0
+'Time Stamp
+2024-03-18 14:35:24:855
+'End Test
