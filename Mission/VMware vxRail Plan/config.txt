@@ -39,7 +39,7 @@ sur les s5224f on a les vlan 230 pour le management et 800 pour le vsan. il rest
     reprise de l'installation de vcenter
 
 4ème jour
-    reprise de la configuration de vsan, il faut d'abord que je configure le reseau 25Gb (un des soucis que j'ai vue est que les cable dac fournis par Nexis ne va pas sur le matos. donc obliger de rester a seulement 4 connection par switch)
+    reprise de la configuration de vsan, il faut d'abord que je configure le reseau 25Gb (un des soucis que j'ai vue est que les cables dac ne va pas sur le matos. donc obliger de rester a seulement 4 connection par switch)
     création d'un distributed switch avec la configuration d'une vmKernel pour vsan.
     quand tout est bon on peut aller claim les disques des autres serveur pour les intégrer dans le cluster.
     dans l'onglet surveiller/vsan, on retrouve un résumé de l'état du cluster. il y a aussi des alertes de santé et de capacité. on peut directement de la regler les probleme.
