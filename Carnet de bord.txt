@@ -239,7 +239,7 @@
     - création d'un disque partager entre les vm test pour récuperer les resultats
     - ajout du jour au Carnet
 
-19/3/24 | 9h10 -
+19/3/24 | 9h10 - 17h30
     - procédure d'arret/démarage du cluster aquis
     - téléchargement du disque partagé la veille et installation de celui-ci sur une vm virtualbox
     - recherche de récupération des graphs vsphere durant les tests de la veille
@@ -247,14 +247,22 @@
     - test de redondance de stockage vsan, retrait d'un disque d'un serveur
     - écriture du TFE
     - ajout du jour au Carnet
-
     
 20/3/24 | Ecriture TFE
 
-21/3/24 | 
+21/3/24 | 9h10 - 17h15
     refaire l'installation d'un os pour avoir des screen
     refaire l'install de vsphere pour avoir l'installation automatiser
+    - reinstallation pour documentation de vsphere esxi
+        - remise a zero des serveurs
+        - installation et configuration des esxi
+        - installation et configuration de vsphere server
+        - creation et configuration du cluster vsan
+    - ajout du jour au Carnet
+
 22/3/24 |
+    il faut enregistrer la mise a niveau de l'image du cluster
+
 
 ##########################################################################
 ##########################################################################
