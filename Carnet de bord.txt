@@ -260,9 +260,9 @@
         - creation et configuration du cluster vsan
     - ajout du jour au Carnet
 
-22/3/24 |
+22/3/24 | 9h10 -
     il faut enregistrer la mise a niveau de l'image du cluster
-
+    - suite de la mise en commun des image OS
 
 ##########################################################################
 ##########################################################################
