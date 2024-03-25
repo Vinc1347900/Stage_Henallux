@@ -88,3 +88,6 @@ sur les s5224f on a les vlan 230 pour le management et 800 pour le vsan. il rest
 
 test de retirer un disque a chaud, vsan détecte la perte et prevois directement une reconstruction d'objet. dans ce cas je lance la reconstruction manuellement. aucun perte a déplorer, on a pas de soucis au niveau des vm
 la remise du disque lance une synchronisation du cluster mais rien de plus.
+
+Test de faire une vm qui prend pas mal de resources, 27 processeurs et 128Go de ram. j'utilise un logiciel qui crée de faut calcul pour utiliser le cpu et voir les taux de transfert.
+alerte d'utilisation déclencher pas vsphere, mais les vm continuent a tourner
