@@ -276,7 +276,7 @@
     - ajout du jour au Carnet
 
 
-26/3/24 |
+26/3/24 | Ecriture TFE
 
 27/3/24 |
 
