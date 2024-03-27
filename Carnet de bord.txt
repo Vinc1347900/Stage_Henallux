@@ -278,10 +278,14 @@
 
 26/3/24 | Ecriture TFE
 
-27/3/24 |
+27/3/24 | 9h -
+    - écriture du TFE
+    - ajout du jour au Carnet
 
 28/3/24 |
+    
 
 29/3/24 |
+    besoins de refaire les screen de vsan skyline health
 
 01/04/24 |

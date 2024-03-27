@@ -1,0 +1,183 @@
+!
+hostname management
+!
+protocol lldp
+!
+redundancy auto-synchronize feuille
+!
+enable password 7 *************
+!
+username admin password 7 *************
+!
+stack unite 1 provision s3124p
+!
+interface GigabitEthernet1/1
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/2
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/3
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/4
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/5
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/6
+    no ip address
+    shutdown
+!
+interface GigabitEthernet1/7
+    no ip address
+    shutdown
+!
+interface GigabitEthernet1/8
+    no ip address
+    shutdown
+!
+interface GigabitEthernet1/9
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/10
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/11
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/12
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/13
+    no ip address
+    shutdown
+!
+interface GigabitEthernet1/14
+    no ip address
+    shutdown
+!
+interface GigabitEthernet1/15
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/16
+    no ip address
+!
+    port-channel-protocol LACP
+    port-channel 32 mode active
+    no shutdown
+!
+interface GigabitEthernet1/17
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/18
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/19
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/20
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/21
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/22
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/23
+    no ip address
+    switchport
+    no shutdown
+!
+interface GigabitEthernet1/24
+    no ip address
+    switchport
+    no shutdown
+!
+...
+!
+interface managementEthernet 1/1
+    ip address 192.168.0.11/24
+    no shutdown
+!
+...
+!
+interface Port-channel 32
+    no ip address
+    switchport
+    no shutdown
+!
+...
+!
+interface Vlan 200
+    name ESXI
+    ip address 10.0.20.1/24
+    untagged GigabitEthernet 1/1-1/5
+    no shutdown
+!
+interface Vlan 210
+    name iDrac
+    ip address 10.0.21.1/24
+    untagged GigabitEthernet 1/15,1/17-1/20
+    no shutdown
+!
+interface Vlan 220
+    name Infra_MGT
+    ip address 10.0.22.1/24
+    untagged GigabitEthernet 1/9-1/12
+    no shutdown
+!
+interface Vlan 230
+    name Switch_MGT
+    ip address 10.0.23.1/24
+    untagged GigabitEthernet 1/21-1/24
+    no shutdown
+!
+interface Vlan 999
+    name Outside
+    ip address 172.16.197.200/24
+    untagged port-channel 32
+    no shutdown
+!
+management route 0.0.0.0/0 192.168.0.1
+!
+ip route 0.0.0.0/0 172.16.197.254
+ip route 192.168.0.0/24 Vlan 230
+!
+...
+!
+end
