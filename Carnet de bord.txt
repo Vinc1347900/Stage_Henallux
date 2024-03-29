@@ -278,14 +278,16 @@
 
 26/3/24 | Ecriture TFE
 
-27/3/24 | 9h -
+27/3/24 | 9h - 17h25
     - écriture du TFE
     - ajout du jour au Carnet
 
-28/3/24 |
+28/3/24 | Ecriture TFE
     
 
 29/3/24 |
     besoins de refaire les screen de vsan skyline health
+    refaire une install vSphere ESXI, option d'installation dans déploiement SE
+    refaire un vsan et test DSwitchs en metant esxi-1 en maintenance
 
 01/04/24 |

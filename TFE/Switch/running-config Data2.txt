@@ -3,17 +3,13 @@ hostname Data2
 !
 interface vlan10
     vlan-name data
-    no shutdown
-    nlb-cluster 10.0.10.1 03:bf:00:00:00:01 interface ethernet1/1/1-1/1/4
-!
-interface vlan230
-    vlan-name Switch_MGT
-    no shutdown
+    shutdown
+    nlb-cluster 10.0.10.1 03:bf:00:00:00:01 interface ethernet1/1/9-1/1/12
 !
 interface vlan800
     vlan-name vSan
     no shutdown
-    nlb-cluster 10.0.80.1 03:bf:00:00:00:02 interface ethernet1/1/9-1/1/12
+    nlb-cluster 10.0.80.1 03:bf:00:00:00:02 interface ethernet1/1/1-1/1/4
 !
 interface mgmt1/1/1
     no shutdown
