@@ -285,9 +285,10 @@
 28/3/24 | Ecriture TFE
     
 
-29/3/24 |
+29/3/24 | 9h10 - 17h20
     besoins de refaire les screen de vsan skyline health
     refaire une install vSphere ESXI, option d'installation dans déploiement SE
     refaire un vsan et test DSwitchs en metant esxi-1 en maintenance
-
-01/04/24 |
+    
+    - réinstallation pour test au niveau du distributed switch et prise de screen
+    - ajout du jour au Carnet
