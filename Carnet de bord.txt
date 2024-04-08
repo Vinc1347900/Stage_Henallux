@@ -305,13 +305,15 @@
 
 3/4/24 | Ecriture TFE
 
-4/4/24 | 9h - 
+4/4/24 | 9h - 17h25
     - annalyse des résultats des tests
     - création des graphs
     - écriture du TFE
     - ajout du jour au Carnet
 
-5/4/24 | 
+5/4/24 | 9h45 - 17h
+    - écriture du TFE
+    - ajout du jour au Carnet
 
 ##########################################################################
 ##########################################################################
