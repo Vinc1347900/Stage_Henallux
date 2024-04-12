@@ -1,0 +1,32 @@
+Main page Cloud Foundation : https://www.vmware.com/products/cloud-foundation.html
+Main page vSphere Foundation : https://www.vmware.com/products/vsphere-foundation.html
+Main page vSphere : https://www.vmware.com/products/vsphere.html
+Main page vSan : https://www.vmware.com/products/vsan.html
+Main page DELL vxRail : https://www.dell.com/fr-fr/dt/converged-infrastructure/vxrail/vxrail-hyperconverged-infrastructure.htm
+
+Doc vSan : https://docs.vmware.com/fr/VMware-vSAN/index.html
+Doc vSphere : https://docs.vmware.com/fr/VMware-vSphere/index.html
+Doc vMotion : https://docs.vmware.com/fr/VMware-vSphere/7.0/com.vmware.vsphere.vcenterhost.doc/GUID-D19EA1CB-5222-49F9-A002-4F8692B92D63.html
+Doc VMware vSphere HA : https://docs.vmware.com/fr/VMware-vSphere/7.0/com.vmware.vsphere.avail.doc/GUID-33A65FF7-DA22-4DC5-8B18-5A7F97CCA536.html
+Doc VMware NSX : https://docs.vmware.com/fr/VMware-NSX/index.html
+Doc DELL S3100 Series : https://www.dell.com/support/home/fr-fr/product-support/product/networking-s3100-series/docs
+Doc DELL S5224F-ON : https://www.dell.com/support/home/fr-fr/product-support/product/networking-s5224f-on/docs
+
+Info migration vMotion : https://www.it-connect.fr/migration-a-chaud-de-machines-virtuelles-avec-vmware-vsphere-et-le-vmotion%EF%BB%BF/
+Info ESXi : https://www.ionos.fr/digitalguide/serveur/know-how/esxi/
+Wiki RAID : https://fr.wikipedia.org/wiki/RAID_(informatique)
+Wiki VMware : https://fr.wikipedia.org/wiki/VMware
+VMware DRS : https://i.dell.com/sites/csdocuments/Business_solutions_brochures_Documents/fr/fr/vsl-vmware-drs_fr.pdf
+VMware NSX : https://www.lemagit.fr/definition/VMware-NSX
+Chaine YouTube vSphere: https://www.youtube.com/channel/UCN8FHFshMw-15AtFKWSLczA
+Chaine YouTube vSan : https://www.youtube.com/channel/UCOQ1cSf37ags3wnn9XEOC6Q
+Site de télechargement des ISO : https://customerconnect.vmware.com/downloads/#products_atoz
+DELL vxRail 3D : https://content.hmxmedia.com/VxRail/index.html?hve=voir+vxrail+en+3d
+Supprimer un cluster vSan : https://www.technig.com/delete-vsan-datastore-esxi/
+
+Compréhension HCI :
+    - https://www.nutanix.com/fr/hyperconverged-infrastructure#fonctionne
+    - https://www.hpe.com/be/fr/what-is/hyperconverged-infrastructure.html
+    - https://www.datacore.com/fr/hyperconverged-infrastructure/
+    - https://www.dell.com/fr-fr/blog/hyperconvergence-et-vdi-pourquoi-ca-marche/
+    - https://www.dell.com/fr-fr/blog/tout-savoir-sur-l-hyper-convergence/
