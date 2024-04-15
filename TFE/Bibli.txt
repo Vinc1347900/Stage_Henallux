@@ -2,6 +2,7 @@ Main page Cloud Foundation : https://www.vmware.com/products/cloud-foundation.ht
 Main page vSphere Foundation : https://www.vmware.com/products/vsphere-foundation.html
 Main page vSphere : https://www.vmware.com/products/vsphere.html
 Main page vSan : https://www.vmware.com/products/vsan.html
+Main page VMware NSX : https://www.vmware.com/products/nsx.html
 Main page DELL vxRail : https://www.dell.com/fr-fr/dt/converged-infrastructure/vxrail/vxrail-hyperconverged-infrastructure.htm
 
 Doc vSan : https://docs.vmware.com/fr/VMware-vSAN/index.html
@@ -22,7 +23,9 @@ Chaine YouTube vSphere: https://www.youtube.com/channel/UCN8FHFshMw-15AtFKWSLczA
 Chaine YouTube vSan : https://www.youtube.com/channel/UCOQ1cSf37ags3wnn9XEOC6Q
 Site de télechargement des ISO : https://customerconnect.vmware.com/downloads/#products_atoz
 DELL vxRail 3D : https://content.hmxmedia.com/VxRail/index.html?hve=voir+vxrail+en+3d
+Spec Sheet vxRail : https://www.delltechnologies.com/asset/en-us/products/converged-infrastructure/technical-support/h16763-vxrail-spec-sheet.pdf
 Supprimer un cluster vSan : https://www.technig.com/delete-vsan-datastore-esxi/
+Datasheet NSX : https://www.vmware.com/files/fr/pdf/products/nsx/VMware-NSX-Datasheet.pdf
 
 Compréhension HCI :
     - https://www.nutanix.com/fr/hyperconverged-infrastructure#fonctionne
