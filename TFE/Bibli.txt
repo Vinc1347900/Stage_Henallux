@@ -26,6 +26,9 @@ DELL vxRail 3D : https://content.hmxmedia.com/VxRail/index.html?hve=voir+vxrail+
 Spec Sheet vxRail : https://www.delltechnologies.com/asset/en-us/products/converged-infrastructure/technical-support/h16763-vxrail-spec-sheet.pdf
 Supprimer un cluster vSan : https://www.technig.com/delete-vsan-datastore-esxi/
 Datasheet NSX : https://www.vmware.com/files/fr/pdf/products/nsx/VMware-NSX-Datasheet.pdf
+Config max (vSphere, vSan et vCenter) : https://configmax.esp.vmware.com/guest?vmwareproduct=vSphere&release=vSphere%208.0&categories=1-0,7-0,2-0,3-0
+Config max NSX : https://configmax.esp.vmware.com/guest?vmwareproduct=VMware%20NSX&release=NSX-T%20Data%20Center%203.2.3&categories=17-0
+Licence vSphere : https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/vsphere/vmware-vsphere-pricing-whitepaper.pdf
 
 Compréhension HCI :
     - https://www.nutanix.com/fr/hyperconverged-infrastructure#fonctionne
@@ -33,3 +36,12 @@ Compréhension HCI :
     - https://www.datacore.com/fr/hyperconverged-infrastructure/
     - https://www.dell.com/fr-fr/blog/hyperconvergence-et-vdi-pourquoi-ca-marche/
     - https://www.dell.com/fr-fr/blog/tout-savoir-sur-l-hyper-convergence/
+
+Acteurs Marché HCI :
+    - https://www.emergenresearch.com/blog/top-10-companies-in-hyper-converged-infrastructure-market
+    - https://www.crn.com/slide-shows/data-center/top-4-hyper-converged-infrastructure-market-share-leaders
+    - https://www.mordorintelligence.com/industry-reports/hyper-converged-infrastructure-market
+
+    - https://www.hpe.com/fr/fr/integrated-systems/hyper-converged.html
+    - https://learn.microsoft.com/fr-fr/azure-stack/hci/overview
+    - https://www.nutanix.com/fr
