@@ -44,4 +44,4 @@ Acteurs Marché HCI :
 
     - https://www.hpe.com/fr/fr/integrated-systems/hyper-converged.html
     - https://learn.microsoft.com/fr-fr/azure-stack/hci/overview
-    - https://www.nutanix.com/fr
+    - https://www.nutanix.com/fr/products/nutanix-cloud-infrastructure
