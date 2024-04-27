@@ -1,4 +1,4 @@
-12/2/24 | 9h - 17h30
+12/2/24 | 
     - présentation de l'entreprise, installation sur desk
     - prêt pc et configuration de celui-ci
     - reçu de la feuille de route
@@ -8,9 +8,8 @@
     - début des recherches sur la technologie VMware
     - création du dossier Documentations
     - création du Carnet de bord
-    - ajout du jour au Carnet
 
-13/2/24 | 9h10 - 17h28
+13/2/24 | 
     - création du dossier Explications
     - début d'écriture sur la sphere VMware et DELL
     - écriture des informations concernant DELL vxRail (voir Explications/DELL VxRail)
@@ -18,18 +17,16 @@
     - écriture des informations concernant VMware (voir Explications/VMware)
     - ajout de documentations concernant VMware (showcase, datasheet, licensing)
     - ajout de documents complémentaire pour ma compréhension (VMware NXS, Cloud Fundation) (NSX sera utiliser dans le project, besoin d'approfondir)
-    - ajout du jour au Carnet
 
-14/2/24 | 9h12 - 17h27
+14/2/24 |
     - recherche d'informations sur vxRail
     - recherche d'informations sur VMware NSX
     - ajout de documentations concernant DELL vxRAil system tech (découverte des differentes versions proposées)
     - pas de VMware Cloud Fundation dans le project !
     - début des recherches sur DELL vxRail HCI et Manager (DELL côté software)
     - ajout de documentations (à lire) sur DELL vxRail HCI, Manager et EMC vxRail
-    - ajout du jour au Carnet
 
-15/2/24 | 9h15 - 17h15
+15/2/24 |
     - lecture documents préparée la veille
     - ajout de documentation sur vSan Planning and deployement guide
     - aprofondissement sur l'ensemble VMware (vCenter, vSphere, vSan) et DELL vxRail (VOIR début d'explication)
@@ -37,9 +34,8 @@
     - creation du dossier "explication/switch"
     - ajout de documentations installation guide s5200f-on series
     - ajout de documentations installation guide s3100 series (spec sheet a lire) 
-    - ajout du jour au Carnet
 
-16/2/24 | 9h05 - 17h25
+16/2/24 |
     - lecture switch s3100 series spec sheet
     - recherche d'informations sur DELL Networking FTOS
     - ajout documentations DELL flow control
@@ -49,12 +45,11 @@
     - ajout documentations DELL S5200-series spec sheet
     - recherches sur "erasure coding"
     - recherche d'info sur HPE iLo (même principe que iDRAC mais chez HP)
-    - ajout du jour au Carnet
 
 ##########################################################################
 ##########################################################################
 
-19/2/24 | 9h10 - 17h27
+19/2/24 |
     - début des recherches sur l'installation de VMware vSphere ESXI sur le serveur HP
     - ajout de documentation sur l'installation d'un ESXI sur hp
     - début de manipulation sur le serveur HP, pour les détails voir **VOIR Explication/HPServer**
@@ -63,10 +58,8 @@
     - ajout de documentation sur HPE SSA
     - recherche de documentation sur les differents type de raid (0, 1, 1+0, 5 et 6) **surement voir plus tard pour trouver une bonne explication a mettre dans le TFE**
     - fin de manipulation, il faut aprofondir les options possible dans vSphere mais ici c'etait une mise en bouche de comment installer un serveur et un hote EXSi plus gestion du stockage.
-    - ajout du jour au Carnet
 
-
-20/2/24 | 9h15 - 17h20
+20/2/24 |
     - discution avec le maitre de stage a propos des softskills, besoin de mettre en place un meeting pour en discuter
     - retranscription du fichier TODO sur la suite Microsoft Teams pour rejoindre l'utilisation de l'entreprise
     - reprise de la mission 1, prise de capture d'écran et annalyse des options dans l'ESXi Host Client, l'hote HPE, Smart provisioning
@@ -75,15 +68,14 @@
     - ajout documentation conception réseau (A LIRE)
     - ajout documentation administration guide (A LIRE)
 
-21/2/24 | 9h17 - 17h23
+21/2/24 |
     - reprise de la lecture des documents préparer la veille (reprendre a la page 56)
     - proposition d'approfondire la mission 1 **VOIR TODO ET Mission/Mission1** 
     - configuration switch (vlan) pour segmenter le management serveur des vm
     - installation windows serveur pour en faire un dns
     - début d'installation de vCenter Server (probleme sur la segmentation du reseau car l'installation doit résoudre les nom de domaine, reprise demain pour une install d'un srv dns)
-    - ajout du jour au Carnet
 
-22/2/24 | 9h15 - 17h28
+22/2/24 |
     - reprise de la mission 1
     - configuration d'un serveur dns dans le vlan de management
     - installation de vCenter Server et configuration de celui-ci
@@ -91,9 +83,8 @@
     - debut de configuration d'un cluster sur vcenter
     - découverte des options proposées
     - test d'une snapshot (tout a crash, a revoir)
-    - ajout du jour au Carnet
 
-23/2/24 | 9h18 - 17h25
+23/2/24 | 
     - reprise de la mission 1
     - recherche sur le fonctionnement des autorisations dans vCenter
     - manipulation des vm avec un compte non-admin
@@ -103,13 +94,11 @@
     - démonstration d'une infra HCI client. Pour voir un peu a quoi resemble un environement concret
     - reunion avec le maitre de stage pour discuter des softskills
     - reprise de la lecture des documents préparer le 20/2 (reprendre a la page 93)
-    - ajout du jour au Carnet
-
 
 ##########################################################################
 ##########################################################################
 
-26/2/24 | 9h15 - 17h25
+26/2/24 |
     - élaboration du plans logique de la mission (sujet du stage)
     - élaboration du plans d'adressage IP de la mission (v1)
     - début de création du Gantt (besoins d'en parler avec Mr Petten)
@@ -117,9 +106,8 @@
     - lecture de la documentation conception réseau
     - lecture de la documentation administration guide
     - recherche sur le materiel que l'on me donne (recherche des differents ports pour réflechir au plan d'adressage)
-    - ajout du jour au Carnet
 
-27/2/24 | 9h13 - 17h27   
+27/2/24 |  
     - essaie sur le titre et le synopsys du TFE
     - reunion avec Francois, voir **Reunion/reunion - 27 Février**
     - reprise du plan d'adressage (v2)
@@ -127,9 +115,8 @@
     - reprise du Gantt
     - préconfiguration des serveurs DNS et vCenter Server (version 7 ou 8 a installer ?)
     - recherche d'information sur les vlan sur le switch 5524 et 3124
-    - ajout du jour au Carnet
 
-28/2/24 | 9h17 - 17h21
+28/2/24 |
     - mise a jour du Gantt
     - pré-configurations de vcenter 8 (la version 8 selon l'équipe est pas mal remplit de bug, je peux quand même choisir)
         - erreur lors de l'export sous OVF du serveur DSN 1 (erreur de connexion, retelecharger le fichier) et tester l'import
@@ -138,18 +125,21 @@
             - sous problème avec le serveur DNS, erreur de communiquation entre vCenter et le DNS
             - pas un soucis de réseau, vCenter est dans le vlan de management donc il sais acceder au esxi et au dns
             - resolu avec la remise en place des anciens nom de domaine. alors que le dns a leux deux noms de domaine pour la configuration et qu'un nslookup revois bien les bonnes infos
-            - NOTE A SOIS MEME : Faire attention de quesqu'y est selection avant de suprimer !!!
-        - ajout du jour au Carnet
-    
+            - NOTE A SOIS MEME : Faire attention de quesqu'y est selection avant de suprimer !!!    
 
 29/2/24 | Ecriture TFE
+    - premiere mise en commun des texte
+    - réflexion sur l'architecture du TFE
+    - début de la partie pratique
 
-1/3/24 | Maladie
+1/3/24 | Ecriture TFE
+    - recherche d'information sur l'entreprise
+    - continuation de l'écriture de la partie pratique
 
 ##########################################################################
 ##########################################################################
 
-4/3/24 | 9h15 - 17h20
+4/3/24 |
     - envois mail, proposition du titre et synopsys
     - envois mail, visite du stage
     - envois mail, proposition du Gantt
@@ -159,53 +149,47 @@
     - ajout documentation sur DELL vxRail
     - recherche d'informations sur Dell SmartFabric
     - ajout user guide DELL SmartFabric os10
-    - ajout du jour au Carnet
 
-5/3/24 | 9h10 - 15h30
+5/3/24 |
     - mise en forme du TFE
     - modification du Gantt
     - reflexion sur comment commencer le TFE
-    - ajout du jour au Carnet
     
-6/3/24 | 9h10 - 17h19
+6/3/24 |
     - écriture du TFE
     - reception du matériel, prise de photo (un peu de triche, le cable management et déjà fait)
     - dérouler du début de mission :
         - configuration du switch de management (manque d'info a rajouter !!)
         - configuration des deux switch data (vsan utilise les mêmes cables que le data ?)
         - début d'installationdu esxi mais fin de journée reprise demain
-    - ajout du jour au Carnet
 
-7/3/24 | 9h20 - 17h24
+7/3/24 |
     - reprise a 0 pour les switches, priorité au s3124p pour la gestion des autre switch et les serveurs vxRAil
         - creation des vlan 200,210,230 (pour le 230 "management des switch" il faut voir avec francois comment faire car je peux mettre l'add sur l'interface mais alors rien dans l'int du vlan et inversement)
         - note a sois meme : lors de l'attibution des int dans les vlan c'est en untagged (voir diff tagged-untagged)
         - creation du vlan 220 pour les vm vsphere et dns.
     - installation des esxi sur les 4 serveurs
-    - installation de vcenter et creation du cluster vsan sur le serveur 2
-    - ajout du jour au Carnet    
+    - installation de vcenter et creation du cluster vsan sur le serveur 2 
 
-8/3/24 | 9h15 - 17h25
+8/3/24 |
     - résolution du probleme d'inter-vlan
     - mise en place d'une interface en ldap pour avoir acces a internet depuis le switch de management 
     - réinstallation de vsphere server sur le serveur 1
     - résolution du problème lier avec l'int de management : ajout d'une add sur l'int mgt puis un ip management route (diférent des ip route classique, exclusif au management). acces a toutes les interface de management
     - début de configuration de vsan mais besoin de suprimer celui qui est sur le serveur 2. et besoins de config les deux switch data
-    - ajout du jour au Carnet
 
 ##########################################################################
 ##########################################################################
 
-11/3/24 | 9h10 - 17h20
+11/3/24 |
     - reprise de configurationd des switchs mise en NBL des int data et vsan
     - mise en place du cluster complet de vSan
     - test migration du SRV1-DNS, création du SRV2-DNS
     - reglage de differents probleme de santé de vSan
     - ajout d'une synchronisation avec les serveurs ntp belges
-    - changement de disposition des serveurs dans le rack
-    - ajout du jour au Carnet    
+    - changement de disposition des serveurs dans le rack 
 
-12/3/24 | 9h20 - 17h25
+12/3/24 |
     - test du rebranchement de la veille
     - configuration du démarage automatique des vm principale
     - découverte des services disponible sur vsphere
@@ -213,44 +197,44 @@
     - pendant la reccherche d'une séparation du vlan 800 et 10 j'ai indiquer l'id du vlan dans les distributed switch. j'ai plus d'acces a vsphere, ping fonctionne mais impossible d'avoir le webgui. obliger de tout reinstaller
 
 13/3/24 | Ecriture TFE
+    - écriture partie réseau et configuration des commutateurs
+    - premier jet déscription matériel
 
-14/3/24 | 9h15 - 17h30
+14/3/24 |
     - resolution du probleme de la veille, besoin de nétoyer les esxi du nouveau DVS et remise des liens montant sur le VDS de vsan.
     - reinstallation du server dns et de vsphere/vsan (le reste de la matinée et toute l'aprem)
-    - ajout du jour au Carnet
 
-15/3/24 | 9h10 - 17h25
+15/3/24 |
     - vsan encore casser, besoin de reinstaller tout mais test de seulement reinstaller vsphere et se connecter au vsan cluster (reinstallation complete en supprimant les disque de l'ancien vsan)
     - recherche approfondie sur le fonctionnement de coupure d'un cluster. (besoin de shutdown toutes VM qui ne font pas partie de vsphere puis faire un click droit sur le cluster et dans vSan, arreter le cluster) tout le reste est gérer pa vsphere
     - demande d'info sur de possible test a réaliser sur la résistance du cluster
     - test des solutions trouvé pour proprement éteindre le cluster (à l'air bon)
     - save et export des serveurs dns
-    - ajout du jour au Carnet
 
 ##########################################################################
 ##########################################################################
 
-18/3/24 | 9h15 - 17h20
+18/3/24 |
     - vérification de la procédure d'arret/démarage du cluster
     - recherche documentation sur IO Meter (documentation ajouter dans le dossier "Documentations")
     - préparation pour des tests sous IO Meter 'logiciel de test disques, réseau et CPU'
     - lancement des tests disques de 16-32-64-256Kb en lecture et écriture en solo et dual worker
     - par curiosité de la résistance de travail du cluster, j'ai lancer 5 vm avec 4 worker (2x256Kb en écriture, 64Kb en lecture et un en all in one)
     - création d'un disque partager entre les vm test pour récuperer les resultats
-    - ajout du jour au Carnet
 
-19/3/24 | 9h10 - 17h30
+19/3/24 |
     - procédure d'arret/démarage du cluster aquis
     - téléchargement du disque partagé la veille et installation de celui-ci sur une vm virtualbox
     - recherche de récupération des graphs vsphere durant les tests de la veille
     - Rendez-vous avec Mr Peten sur le lieu de stage
     - test de redondance de stockage vsan, retrait d'un disque d'un serveur
     - écriture du TFE
-    - ajout du jour au Carnet
+        - ajout de la section problème
+        - continuation de la configuration d'installation
     
 20/3/24 | Ecriture TFE
 
-21/3/24 | 9h10 - 17h15
+21/3/24 |
     refaire l'installation d'un os pour avoir des screen
     refaire l'install de vsphere pour avoir l'installation automatiser
     - reinstallation pour documentation de vsphere esxi
@@ -258,7 +242,6 @@
         - installation et configuration des esxi
         - installation et configuration de vsphere server
         - creation et configuration du cluster vsan
-    - ajout du jour au Carnet
 
 22/3/24 | 9h10 - 17h20
     il faut enregistrer la mise a niveau de l'image du cluster
@@ -268,65 +251,58 @@
 ##########################################################################
 ##########################################################################
 
-25/3/24 | 9h - 17h15
-    - création d'une vm sous virtualbox et test de l'import sur vsphere
-        - besoins d'utiliser ovftool pour transformer l'ova. que des erreurs si j'essaye de l'importer dans vsphere
+25/3/24 |
+    - création d'une vm sous virtualbox et test de l'import sur vCenter
+        - besoins d'utiliser ovftool pour transformer l'ova. que des erreurs si j'essaye de l'importer dans vCenter
         - ovftool s'utilise avec une console cmd en admin et permet d'exporter des ova en ovf mais il faut d'abord déployer l'ova via vmware workstation
-    - écriture du TFE
-    - ajout du jour au Carnet
+    - continuation du TFE
 
 
 26/3/24 | Ecriture TFE
 
-27/3/24 | 9h - 17h25
+27/3/24 |
     - écriture du TFE
-    - ajout du jour au Carnet
 
 28/3/24 | Ecriture TFE
-    
 
-29/3/24 | 9h10 - 17h20
+29/3/24 |
     besoins de refaire les screen de vsan skyline health
     refaire une install vSphere ESXI, option d'installation dans déploiement SE
     refaire un vsan et test DSwitchs en metant esxi-1 en maintenance
-    
     - réinstallation pour test au niveau du distributed switch et prise de screen
-    - ajout du jour au Carnet
 
 ##########################################################################
 ##########################################################################
 
 1/4/24 | Férier
 
-2/4/24 | 9h05 - 17h30
+2/4/24 |
     - testes de redondance systeme
     - remise a zero du matériel pour le renvois
-    - ajout du jour au Carnet
+    - continuation d'écriture section monitoring
 
 3/4/24 | Ecriture TFE
+    - continuation partie test
 
-4/4/24 | 9h - 17h25
+4/4/24 |
     - annalyse des résultats des tests
     - création des graphs
     - écriture du TFE
-    - ajout du jour au Carnet
 
-5/4/24 | 9h45 - 17h
-    - écriture du TFE
-    - ajout du jour au Carnet
+5/4/24 |
+    - fin d'écriture de la partie pratique
 
 ##########################################################################
 ##########################################################################
 
 8/4/24 | Ecriture TFE
+    - recherche documentation principe de l'HCI
+    - reflexion de l'architecture de la parte pratique
+    - continuation d'explication de la thé
 
-9/4/24 | 9h05 - 17h15
-    - écriture du TFE
-    - ajout du jour au Carnet
+9/4/24 | Ecriture TFE
 
-10/4/24 | 9h - 17h20
-    - écriture du TFE
-    - ajout du jour au Carnet
+10/4/24 | Ecriture TFE
 
 11/4/24 | Ecriture TFE
 
@@ -335,49 +311,56 @@
 ##########################################################################
 ##########################################################################
 
-15/4/24 | 9h - 17h15
+15/4/24 |
     - écriture du TFE
-    - ajout du jour au Carnet
 
-16/4/24 | 10h - 17h20
+16/4/24 |
     - écriture du TFE
-    - ajout du jour au Carnet 
 
-17/4/24 | 9h10 - 17h25
+17/4/24 |
     - écriture du TFE
-    - ajout du jour au Carnet
 
-18/4/24 | 9h05 - 17h15
+18/4/24 |
     - écriture du TFE
-    - ajout du jour au Carnet
 
 19/4/24 | Ecriture TFE
 
 ##########################################################################
 ##########################################################################
 
-22/4/24 | 9h10h - 17h15
+22/4/24 |
     - écriture du TFE
-    - ajout du jour au Carnet
 
-23/4/24 | 9h - 17h20
+23/4/24 |
     - écriture du TFE
     - écriture rapport de stage
-    - ajout du jour au Carnet
+        - intro
+        - softskills   
 
-24/4/24 | 9h05 - 17h
+24/4/24 |
     - écriture du TFE
+        - retrospection
+        - changement section validation de redondance
+        - mise en forme
     - écriture rapport de stage/journalier
-    - ajout du jour au Carnet
 
 25/4/24 |
+    - reprise rapport de stage
+        - changement section journalier
+        - mise en forme section softskills
+        - objectif du stage 
 
 26/4/24 |
+    - reprise rapport de stage
+        - changement section journalier
+        - conclusion softskill et réecriture de certaine partie
 
 ##########################################################################
 ##########################################################################
 
 29/4/24 |
+    - changement complet du journalier
+    - ajout rappelle du modèle OSI et mise en forme générale
 
 30/4/24 |
 
