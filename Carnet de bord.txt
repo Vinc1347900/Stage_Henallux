@@ -361,6 +361,9 @@
 29/4/24 |
     - changement complet du journalier
     - ajout rappelle du modèle OSI et mise en forme générale
+    - modification bibliographie
+    - ajout de plusieurs point dans diférents chapitre
+    - modification Gantt de fin de stage
 
 30/4/24 |
 
