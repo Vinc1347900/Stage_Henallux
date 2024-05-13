@@ -45,3 +45,68 @@ Acteurs Marché HCI :
     - https://www.hpe.com/fr/fr/integrated-systems/hyper-converged.html
     - https://learn.microsoft.com/fr-fr/azure-stack/hci/overview
     - https://www.nutanix.com/fr/products/nutanix-cloud-infrastructure
+
+
+
+
+
+
+Figure 1 - Services proposés	7
+Figure 2 - Différents emplacements de Trustteam	7
+Figure 3 - Fusion des différents services en un serveur	9
+	https://www.nutanix.com/content/dam/nutanix/en/cmn/diagrams/diag-hci.png
+Figure 4 - Conception de vSphere vCenter Server	12
+Figure 5 - Représentation de fonctionnement VMware DRS	13
+Figure 6 - Architecture d'un cluster vSan standard	14
+Figure 7 - Architecture d'un cluster vSan à deux nœuds	15
+Figure 8 - Architecture d'un cluster vSan étendu	15
+Figure 9 - Architecture de stockage vSan OSA	16
+Figure 10 - Architecture de stockage vSan ESA	16
+Figure 11 - Topologie réseau exemple de VMware NSX	17
+	https://docs.vmware.com/fr/VMware-NSX/4.1/quick_start/images/GUID-EAF5FB66-F94A-4D7C-9844-D31879894012-high.png
+Figure 12 - DELL VxRail E660 Série	22
+	https://content.hmxmedia.com/VxRail/index.html?hve=voir+vxrail+en+3d
+Figure 13 - DELL PowerSwitch S5224F-ON	23
+https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-enterprise-products/networking-products/dell/dell-emc/dellemc_s5224f-on_rf.psd
+Figure 14 - DELL Networking S3124P	23
+	https://img.productz.com/2168574/dell-s3124p-2-preview.jpeg
+Figure 15 - Plan logique de l’infrastructure	24
+Figure 16 - Menu Lifecycle Controller	28
+Figure 17 - Résumé de la configuration Raid	29
+Figure 18 - Résumé de la configuration du système d'exploitation	30
+Figure 19 - Écran d’accueil de vSphere ESXi	30
+Figure 20 - Menu de vSphere ESXi	31
+Figure 21 - Menu de déploiement de vSphere Server	31
+Figure 22 - Tableau des tailles de déploiement	32
+Figure 23 - Configuration d’une banque de données vSan	32
+Figure 24 - Page de réclamation des disques	33
+Figure 25 - Fin de la première étape de déploiement de vSphere	34
+Figure 26 - Menu d'accueil de vSphere server	35
+Figure 27 - Démarrage rapide étape 2 : ajout des hôtes au cluster	36
+Figure 28 - Démarrage rapide étape 3 : configuration réseau	37
+Figure 29 - Démarrage rapide étape 3 : configuration vSphere HA	38
+figure 30 - Démarrage rapide étape 3 : configuration vSan	39
+Figure 31 - Démarrage rapide étape 3 : configuration des options d'hôte	40
+Figure 32 - Configuration additionnelle : vSphere DRS	41
+Figure 33 - Configuration additionnelle : vSphere HA	42
+Figure 34 - Configuration additionnelle : vSan options avancées	43
+Figure 35 - Configuration additionnelle : vSan	43
+Figure 36 - vSan Skyline Health	44
+Figure 37 - Alerte vSan Skyline Health	45
+Figure 39 - Résumé avant correction de la section lignes de base	46
+Figure 38 - Menu lignes de base / groupes de base	46
+Figure 40 - Section image distribuée	47
+Figure 41 - Options de correction du cluster	47
+Figure 43 - Menu d'administration des droits et des rôles	48
+Figure 42 - Menu vSphere Client	48
+Figure 44 - Graphique des latences de lecture et d’écriture	50
+Figure 45 - Historique des migrations par vSphere DRS	51
+Figure 46 - Organigramme de l'entreprise	2
+Figure 47 - Gantt de planification	19
+Figure 48 - Couches du modèle OSI	26
+https://media.fs.com/images/community/wp-content/uploads/2017/11/seven-layers-of-OSI-model.png
+Figure 49 - Démarrage rapide étape 1 : configuration du cluster	33
+Figure 50 - Démarrage rapide étape 3 : trafic vMotion	33
+Figure 51 - Démarrage rapide étape 3 : trafic vSan	34
+Figure 52 - Démarrage rapide étape 3 : configuration vSphere drs	34
+Figure 53 - Hôtes ayant besoins d'une mise à niveau	34
